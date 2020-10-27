@@ -1,32 +1,26 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <footer>
-      <div className="row">
-        <div className="twelve columns">
-          <ul className="social-links">
-            {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
-                return(
-                  item.name === 'malt' ?
-                    <li key={item.name}>
-                      <a href={item.url} target="blank"><img src={item.image} className={item.name} alt={item.name} /></a>
-                    </li>
-                    :
-                    <li key={item.name}>
-                      <a href={item.url} target="blank"><i className={item.className}></i></a>
-                    </li>
-                )
-              })
-            }
-          </ul>
-          
-        </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
-      </div>
-    </footer>
-    );
-  }
-}
+import React from 'react';
+import { Icon } from 'semantic-ui-react' 
+import './footer.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+const Footer = () => {
+	return (
+		<div className="footer">
+			<div className="scrollup">
+				<AnchorLink href="#home">
+					<Icon className="arrowleft" name="chevron circle up" size="big" />
+				</AnchorLink>
+			</div>
+			<div className="footerLogo">
+				<a className="medialogo" href="https://www.linkedin.com/in/kenny-phiri/">
+					<Icon name="linkedin" size='large' />
+				</a>
+				<a className="medialogo" href="https://github.com/kphiri84">
+					<Icon name="github" size="large" />
+				</a>
+			</div>
+		</div>
+	);
+};
+
+export default Footer;

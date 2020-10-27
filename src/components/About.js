@@ -1,49 +1,34 @@
-import React, { Component } from 'react';
-import Moi from '../images/Moi.jpeg';
-import LogoMoi from '../images/logoTranspCT.svg'
-export default class About extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <section id="about">
-        
-        <div className="row slide" id="first-slide" >
+import React from 'react';
+import './about.css';
+import Gsap from './Gsap';
+import { Col } from 'reactstrap';
+import kenny from '../assets/kenny.jpg';
 
-            <div className="three columns">
+const About = () => {
+	return (
+		<div className="about" id="about">
+			<div className="columns">
+				<Col md="8">
+					<h1 className="presentation">PRESENTATION</h1>
+					<p className="name">KENNY PHIRI - Développeur</p>
+					<p className="me">
+						Développeur web fullstack autodidacte de 28 ans basé sur Avignon, j'ai suivi une formation de
+						développeur web à la Wild Code School. <br />
+						Le développement web est une de mes passions que je cultive au quotidien. <br />
+						Je suis passionné par l'UX-UI design, les créations web, la manipulation de bases de données et toutes les dernières technologies.{' '}
+						<br />
+						J'aime expérimenter, créer et relever de nouveaux défis. <br />
+						Si vous êtes intéressé par mon profil ou que vous voulez en savoir plus sur moi, n'hésitez pas à
+						me contacter.
+					</p>
+					<Gsap />
+				</Col>
+				<Col className="image" md="4">
+					<img className="kennys" src={kenny} alt="" />
+				</Col>
+			</div>
+		</div>
+	);
+};
 
-            <img className="profile-pic one columns" src={`${Moi}`} alt="moi" />
-            <img className="profile-pic one columns" src={`${LogoMoi}`} alt="logomoi" />
-
-            </div>
-
-            <div id='AboutTxt' className="nine columns main-col">
-              <div>
-               <h2>A propos</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
-               </p>
-              </div>
-               <div className="row">
-
-                  <div className="columns contact-details">
-
-                  <h2>Fiche de contact</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-       					   </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-    );
-  }
-}
+export default About;

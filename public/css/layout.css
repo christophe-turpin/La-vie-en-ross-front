@@ -22,7 +22,10 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { 
+   background: #0f0f0f url('../images/header-background.jpg');
+   background-size: cover !important; 
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -56,7 +59,7 @@ header .banner {
    align-items: center;
    vertical-align: middle;
    justify-content: flex-start;
-   margin-bottom: 10vh;
+   margin-bottom: 3vh;
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
@@ -199,7 +202,7 @@ ul#nav li.current a { color: #cc60b1; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #FFFFFF;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -209,12 +212,12 @@ ul#nav li.current a { color: #cc60b1; }
 #about a:hover, #about a:focus { color: #cc60b1; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #cc60b1;
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
+   line-height: 20px;
+   margin-bottom: 10px;
    color: #7A7A7A;
 }
 #about #AboutTxt {
@@ -225,6 +228,11 @@ ul#nav li.current a { color: #cc60b1; }
 }
 #about .profile-pic {
    position: relative;
+   border-radius: 100%;
+}
+#about .about-pic {
+   position: relative;
+   width: 15vw;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -338,51 +346,6 @@ ul#nav li.current a { color: #cc60b1; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 15%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.javascript {
-  	width: 20%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css3 {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 90%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.python {
-  	width: 10%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-.scrum {
-  	width: 20%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-.swift {
-  	width: 10%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -580,7 +543,7 @@ ul#nav li.current a { color: #cc60b1; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #cc60b1 }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -1030,5 +993,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #cc60b1; }
 

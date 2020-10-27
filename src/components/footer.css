@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333333 !important;
+}
+
+.footerLogo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+.scrollup{
+    margin-top: 10px;
+}
+
+.arrowleft{
+    margin-top: -45px !important;
+    color: white;
+    position: relative;
+}
+
+.medialogo{
+    padding: 15px;
+}
