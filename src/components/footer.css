@@ -1,7 +1,17 @@
 .devContent{
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
     background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
 	color: black;
@@ -10,12 +20,13 @@
 
 .devItem{
     color: black !important;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .devContent .logodev {
     max-width: 40px !important;
     min-width: 40px !important;
-    margin-left: 30px;
   }
 
 .footerLogo{
