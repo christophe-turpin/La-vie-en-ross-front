@@ -30,11 +30,12 @@ body {
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
-	height: 85vh;
+	height: 77vh;
 }
 .title {
 	font-size: 22;
 	font-weight: bolder;
+	color: white;
 }
 .inner-header {
 	width: 100%;

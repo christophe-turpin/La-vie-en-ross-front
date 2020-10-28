@@ -1,30 +1,36 @@
 import React from 'react';
 import './about.css';
-import Gsap from './Gsap';
-import { Col } from 'reactstrap';
-import kenny from '../assets/kenny.jpg';
+import { Col, Row } from 'reactstrap';
+import resumeData from '../assets/resumeData';
+import { Link } from 'react-router-dom';
 
 const About = () => {
 	return (
 		<div className="about" id="about">
 			<div className="columns">
-				<Col md="8">
-					<h1 className="presentation">PRESENTATION</h1>
-					<p className="name">KENNY PHIRI - Développeur</p>
-					<p className="me">
-						Développeur web fullstack autodidacte de 28 ans basé sur Avignon, j'ai suivi une formation de
-						développeur web à la Wild Code School. <br />
-						Le développement web est une de mes passions que je cultive au quotidien. <br />
-						Je suis passionné par l'UX-UI design, les créations web, la manipulation de bases de données et toutes les dernières technologies.{' '}
-						<br />
-						J'aime expérimenter, créer et relever de nouveaux défis. <br />
-						Si vous êtes intéressé par mon profil ou que vous voulez en savoir plus sur moi, n'hésitez pas à
-						me contacter.
-					</p>
-					<Gsap />
-				</Col>
 				<Col className="image" md="4">
-					<img className="kennys" src={kenny} alt="" />
+					<img className="Alex" src={resumeData.aboutPic} alt="alex" />
+				</Col>
+				<Col md="8">
+					<h1 className="presentation">{resumeData.name} - {resumeData.role}</h1>
+					<h3 className="soutitle">{resumeData.aboutTitle}</h3>
+					{ resumeData.aboutText && resumeData.aboutText.map(item => <p className="me" key={item}>{item}</p>
+					)}
+					<p className='me'>{resumeData.aboutFinal}</p>
+					<Row className='aboutRow'>
+						<h4 className='aboutCategory'>Certifications :</h4>
+						<p>liens vers les diplomes</p>
+					</Row>
+					<Row className='aboutRow'>
+						<h4 className='aboutCategory'>Prestations :</h4>
+						<Link className='eventCarousel' to='/mariage'><button className="LinkButton">Mariage</button></Link>
+						<Link className='eventCarousel' to='/evenementiel'><button className="LinkButton">Evenementiel</button></Link>
+					</Row>
+					<Link to="/contact">
+						<div className="evenCarousel">
+						<button className="contactButton">Contactez-nous</button>
+						</div>
+					</Link>
 				</Col>
 			</div>
 		</div>

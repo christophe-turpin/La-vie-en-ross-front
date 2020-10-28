@@ -14,16 +14,36 @@
 	text-align: left !important;
 	font-weight: 900;
 	padding: 10px 30px !important;
-	color: white;
-	background-color: #ef981c;
+	color: rgb(218, 119, 193);
 	border-radius: 4px;
-	font-size: 40px;
 	display: inline-block;
 	margin-top: 25px !important;
 }
-
-.kennys {
-	height: 380px;
+.aboutRow {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.aboutCategory {
+	margin-right: 15px;
+	text-decoration: black underline;
+}
+.aboutCategoryText {
+	margin-right: 15px;
+}
+.contactButton{
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: rgb(218, 119, 193);
+}
+.LinkButton{
+	border-radius: 20px;
+	padding: 5px;
+	background-color: rgb(218, 119, 193);
+	margin-right: 15px;
+}
+.Alex {
 	width: 300px;
 }
 .name {
