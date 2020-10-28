@@ -1,23 +1,30 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react' 
-import './footer.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Icon } from 'semantic-ui-react';
+import './footer.css';
+import chris from '../assets/images/logo_ct_rondnoir_blanc.png'
+import ken from '../assets/images/logoK.png'
 
 const Footer = () => {
 	return (
 		<div className="footer">
-			<div className="scrollup">
-				<AnchorLink href="#home">
-					<Icon className="arrowleft" name="chevron circle up" size="big" />
-				</AnchorLink>
-			</div>
-			<div className="footerLogo">
-				<a className="medialogo" href="https://www.linkedin.com/in/kenny-phiri/">
-					<Icon name="linkedin" size='large' />
-				</a>
-				<a className="medialogo" href="https://github.com/kphiri84">
-					<Icon name="github" size="large" />
-				</a>
+			<div className="devContent">
+				<h4 className="devItem">Ce site a été crée par :</h4>
+				<ul>
+					<li>
+						<h5 className="devItem">
+							Christophe :<a href="https://cv-christophe-turpin.netlify.app/" target="blank">
+								<img src={chris} className="logodev" alt="logo christophe" />
+							</a>
+						</h5>
+					</li>
+					<li>
+						<h5 className="devItem">
+							Kenny :<a href="https://phiri-kenny.netlify.app/" target="blank">
+								<img src={ken} className="logodev" alt="logo kenny" />
+							</a>
+						</h5>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);

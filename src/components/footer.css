@@ -1,9 +1,22 @@
-.footer{
+.devContent{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #333333 !important;
+    background-image: url('../assets/images/header-background.jpg');
+	background-repeat: no-repeat;
+	color: black;
+	background-size: cover;
 }
+
+.devItem{
+    color: black !important;
+}
+
+.devContent .logodev {
+    max-width: 40px !important;
+    min-width: 40px !important;
+    margin-left: 30px;
+  }
 
 .footerLogo{
     position: relative;
