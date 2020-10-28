@@ -1,11 +1,21 @@
 .navbar {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    justify-content: center !important;
     position: fixed !important;
     height: 100px !important;
-    z-index: 400;
     width: 100%;
+    z-index: 400;
     transition: .5s;
     background-color: transparent !important;
     color: white;
+    font-size: large;
+}
+.mr-auto {
+    width: 100%;
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    justify-content: space-evenly !important;
 }
 .navbar.active {
     position: fixed !important;
@@ -13,20 +23,24 @@
     z-index: 400;
     width: 100%;
     transition: .5s;
-    background-color: #333333 !important;
+    background-image: url('../assets/images/header-background.jpg');
+	background-repeat: no-repeat;
+	color: white;
+	background-size: cover;
     color: white;
 }
 .navbar a{
     color: white;
 }
 .nav-link:hover{
-    color: gold !important;
+    color: rgb(218, 119, 193) !important;
 }
 
 .navbar-brand{
     display: flex !important;
-    flex-direction: row !important;
+    flex-flow: row  nowrap!important;
     align-items: center;
+    justify-content: space-around !important;
 }
 
 .kp{

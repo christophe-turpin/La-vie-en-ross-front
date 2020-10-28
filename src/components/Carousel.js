@@ -5,7 +5,6 @@ import {
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption
   } from 'reactstrap';
 import resumeData from '../assets/resumeData'
 import './anim.css'
