@@ -4,7 +4,7 @@ import Navmenu from './components/NavMenu'
 import AnimBorder from './components/AnimBorder'
 import Contact from './components/Contact';
 import Competences from './components/Competences';
-import Portfolio from './components/Carousel';
+import Portfolio from './components/Portfolio';
 import About from './components/About'
 import Footer from './components/Footer'
 import { Container } from "reactstrap"
