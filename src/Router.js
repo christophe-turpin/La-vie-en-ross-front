@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Navmenu from './components/NavMenu'
 import AnimBorder from './components/AnimBorder'
 import Contact from './components/Contact';
-import Competences from './components/Competences';
+import Mariage from './components/Mariage';
 import Portfolio from './components/Carousel';
 import About from './components/About'
 import Footer from './components/Footer'
@@ -16,7 +16,7 @@ const Router = () => {
 			<AnimBorder />
 			<Switch>
 				<Route exact path="/" component={About} />
-				<Route path="/mariage" component={Competences} />
+				<Route path="/mariage" component={Mariage} />
 				<Route path="/evenementiel" component={Portfolio} />
 				<Route path="/contact" component={Contact} />
 			</Switch>

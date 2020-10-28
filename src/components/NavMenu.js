@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import './nav.css';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import resumeData from '../assets/resumeData';
 import { Link } from 'react-router-dom';
 
