@@ -347,56 +347,6 @@ ul#nav li.current a { color: #cc60b1; }
 }
 
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 100%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -711,7 +661,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -779,10 +729,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #FFFFFF;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #f58fe7;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -825,7 +775,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: black;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -835,7 +785,9 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background-image: url('../images/header-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -846,14 +798,18 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #cc60b1;
+	color: black;
+	background-image: url('../images/header-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+	background-image: url('../images/header-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -863,7 +819,9 @@ call-to-action .button {
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
-	background: #fff;
+	background-image: url('../images/header-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #contact span.required {
 	color: #cc60b1;

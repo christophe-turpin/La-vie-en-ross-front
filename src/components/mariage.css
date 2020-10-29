@@ -3,13 +3,13 @@ body{
 }
 #ct{
   height:150px; 
-  width:370px;
+  width:375px;
   border:1px solid pink;
   margin: 100px auto;
   text-align:center;
   position:relative;
   color:#fff;
-  padding:15px;
+  padding:10px;
 }
 #quote {
   display: flex !important;
@@ -20,6 +20,7 @@ body{
 }
 #carDiv {
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 span{
@@ -37,6 +38,19 @@ span{
   transform:rotate(-45deg);  
   position:absolute;
   background:white;
+}
+.comItem {
+  display: flex !important;
+  flex-flow: column nowrap !important;
+}
+.comRow {
+margin-top: 20px;
+}
+.info {
+  font-weight: 600;
+}
+.com {
+  font-style: italic;
 }
 
 #left_top{
@@ -71,26 +85,4 @@ p{
 	background-repeat: no-repeat;
 	color: rgb(218, 119, 193);;
 	background-size: cover;
-}
-#presta {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-.prestacard {
-  width: 120px;
-  height: 190px;
-}
-.cardImg{
-  background-color: black;
-}
-.cardTitle {
-  font-weight: 700;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-end;
-}
-#mariagePrices{
-  text-align: center;
 }

@@ -1,30 +1,21 @@
 .contact{
-    background-image: url('../assets/web2.jpg');
-    background-repeat: no-repeat;
-    color: white;
-    background-size: cover;
+    background-color: white !important;
 }
-.contactTitle{
-    font-family: 'Raleway';
-    text-align: center !important;
-    font-weight: bolder;
-    padding: 10px 30px !important;
-    color: white;
-    background-color: #ef981c !important;
-    border-radius: 4px;
-    font-size: 40px;
-    display: inline-block;
-    margin-top: 25px !important;
+#contact {
+    padding: 20px;
+    color: black
 }
 .contactHr {
     width: 50px;
     border-top: 1px solid white !important;
 }
 .lead{
-    color: white;
+    color: rgb(218, 119, 193);
     text-align: center;
     font-size: 25px !important;
-    font-weight: 900;
+    font-weight: bolder !important;
+    margin-top: 25px !important;
+    margin-bottom: 35px !important;
 }
 .form-group{
     max-width: 80%;
@@ -52,16 +43,5 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-	.contactTitle{
-        font-family: 'Raleway';
-        text-align: center !important;
-        font-weight: bolder;
-        padding: 10px 30px !important;
-        color: white;
-        background-color: #ef981c !important;
-        border-radius: 4px;
-        font-size: 20px;
-        display: inline-block;
-        margin-top: 25px !important;
-    }
+
 }

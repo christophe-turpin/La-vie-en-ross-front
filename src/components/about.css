@@ -1,7 +1,8 @@
 .about {
 	display: flex;
 	flex-direction: column;
-	background-color: rgb(245, 245, 220);
+	background-color: white;
+	padding-bottom: 30px;
 }
 .image {
 	display: flex;
@@ -43,9 +44,13 @@
 	border-radius: 20px;
 	padding: 5px;background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
-	color: rgb(218, 119, 193);;
+	color: rgb(218, 119, 193);
 	background-size: cover;
 	margin-right: 15px;
+}
+button:hover {
+	background-color: white;
+	color: rgb(218, 119, 193)
 }
 .Alex {
 	width: 300px;
@@ -89,8 +94,7 @@ hr {
         text-align: left !important;
         font-weight: 900;
         padding: 10px 30px !important;
-        color: white;
-        background-color: #ef981c;
+		color: rgb(218, 119, 193);
         border-radius: 4px;
         font-size: 20px;
         display: inline-block;

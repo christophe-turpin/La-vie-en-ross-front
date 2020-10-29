@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -40,11 +40,8 @@ const Contact = () => {
 
 	return (
 		<div className="contact">
-			<div className="title">
-			<h1 className="contactTitle">CONTACT</h1>
-			</div>
 		<Form onSubmit = {handleSubmit} id="contact">
-			<p className="lead">Pour toute demande ou suggestions n'hésitez pas à me contacter !</p>
+			<p className="lead">Pour toute demande n'hésitez pas à me contacter ! Je vous rappellerais dans les plus brefs délais</p>
 			<FormGroup>
 				<Label for="examplePassword">Nom/Prénom</Label>
 				<Input 
@@ -86,7 +83,9 @@ const Contact = () => {
 				 />
 			</FormGroup>
 			<FormGroup className="buttonGroup">
-				<Button>Envoyer</Button>
+				<div className="evenCarousel">
+					<button className="contactButton">Envoyer</button>
+				</div>
 			</FormGroup>
 			
 		</Form>

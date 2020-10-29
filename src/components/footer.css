@@ -1,10 +1,88 @@
+#footerRow {
+    width: 100%;
+}
+.devContent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    margin-left: 20px;
+}
+
 .footer{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    background-color: #333333 !important;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('../assets/images/header-background.jpg');
+	background-repeat: no-repeat;
+	color: black;
+	background-size: cover;
 }
-
+#presta {
+    width: 50vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+}
+#presta a {
+    color: black;
+}
+.prestacard {
+    width: 100px;
+    height: 150px;
+    margin-right: 20px;
+    background: transparent !important;
+    border: 0ch !important;
+}
+.cardImg{
+    background-color: black;
+}
+.card-body {
+    padding: 0px !important;
+}
+.cardTitle {
+    font-size: 14px;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+#mariagePrices{
+    text-align: center;
+}
+.devTitle {
+    align-self: flex-start;
+}
+.devItem{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: black !important;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.devContent{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin: 0px;
+}
+.devContent .logodev {
+    max-width: 40px !important;
+    min-width: 40px !important;
+}
+.devResponse {
+    align-self: center;
+}
 .footerLogo{
     position: relative;
     display: flex;

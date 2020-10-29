@@ -87,8 +87,6 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
    content: '';
@@ -169,7 +167,6 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
-.subheader { }
 
 p { margin: 0 0 30px 0; }
 p img { margin: 0; }
@@ -313,8 +310,6 @@ ol ol, ol ul { margin: 6px 0 6px 30px; }
 ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
-ul.large li { }
-li p { }
 
 /* ---------------------------------------------------------------------
 /*  Stats Tab Markup
@@ -444,7 +439,6 @@ dd { margin: 0 0 0 20px; }
    background-color: #E6E8EB;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -464,7 +458,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: rgb(218, 119, 193);
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -492,7 +486,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #3d4145;
+   background: rgb(218, 119, 193);
    color: #fff;
 }
 
@@ -501,7 +495,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-   background: #3d4145;
+   background:rgb(218, 119, 193);
    color: #fff;
 }
 
@@ -539,7 +533,6 @@ select {
    margin: 0 0 24px 0;
    border: 0;
    outline: none;
-   vertical-align: middle;
    min-width: 225px;
 	max-width: 100%;
    font-size: 15px;

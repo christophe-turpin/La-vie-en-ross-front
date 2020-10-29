@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
 	return (
-		<div className="about" id="about">
+		<div className="about">
 			<div className="columns">
 				<Col className="image" md="4">
 					<img className="Alex" src={resumeData.aboutPic} alt="alex" />

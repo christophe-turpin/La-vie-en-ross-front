@@ -1,26 +1,57 @@
-import React from 'react';
-import { Icon } from 'semantic-ui-react' 
-import './footer.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import React from "react";
+import "./footer.css";
+import { Col, Card, CardImg, CardBody, CardTitle } from "reactstrap";
+import resumeData from "../assets/resumeData";
 
 const Footer = () => {
-	return (
-		<div className="footer">
-			<div className="scrollup">
-				<AnchorLink href="#home">
-					<Icon className="arrowleft" name="chevron circle up" size="big" />
-				</AnchorLink>
-			</div>
-			<div className="footerLogo">
-				<a className="medialogo" href="https://www.linkedin.com/in/kenny-phiri/">
-					<Icon name="linkedin" size='large' />
-				</a>
-				<a className="medialogo" href="https://github.com/kphiri84">
-					<Icon name="github" size="large" />
-				</a>
-			</div>
-		</div>
-	);
+  return (
+    <div className="footer">
+      <Col id="presta" md="9">
+        {resumeData.prestataires &&
+          resumeData.prestataires.map((item) => (
+            <a href={item.website} target="blank">
+              <Card className="prestacard" key={item.name}>
+                <CardImg
+                  className="cardImg"
+                  top
+                  width="auto"
+                  height="auto"
+                  src={item.logo}
+                  alt={item.name}
+                />
+                <CardBody>
+                  <CardTitle className="cardTitle">{item.name}</CardTitle>
+                  {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
+                  {/* <CardText>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </CardText>
+                    <Button>Button</Button> */}
+                </CardBody>
+              </Card>
+            </a>
+          ))}
+      </Col>
+      <Col md="3" className="devContent">
+        <h4 className="devTitle">Ce site a été crée par :</h4>
+        <div className="devResponse">
+          {resumeData.devs &&
+            resumeData.devs.map((item) => (
+              <div className="devItem">
+                <p className="devName">{item.name}</p>
+                <a href={item.url} target="blank">
+                  <img
+                    src={item.logo}
+                    className="logodev"
+                    alt={`logo ${item.name}`}
+                  />
+                </a>
+              </div>
+            ))}
+        </div>
+      </Col>
+    </div>
+  );
 };
 
 export default Footer;

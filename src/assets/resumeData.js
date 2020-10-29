@@ -18,6 +18,7 @@ import photo16 from './images/carousel/photo16.jpg';
 import photo17 from './images/carousel/photo17.jpg';
 import photo18 from './images/carousel/photo18.jpg';
 import logoC from './images/logo_ct_rondnoir_blanc.png';
+import logoK from './images/logoK.png'
 import AboutPic from './images/Alex1.jpeg'
 import MariagePic from './images/Alex2.jpeg'
 
@@ -111,6 +112,141 @@ let resumeData = {
       "price": "À partir de 900€",
     },
   ],
+  "temoinMar":[
+    {
+      "date": "Octobre 2020",
+      "name": "Mélissa",
+      "com": "Se marier en temps de pandémie n'est ni facile ni évident. Organiser un mariage tout en ayant un travail à temps plein est quelque chose qui nécessite davantage d'organisation et de temps. Alex nous a aidé, mon chéri et moi à avancer dans notre organisation comme une vrai pro! Elle est attentive aux moindres détails et surtout à l'écoute de nos besoins, que ce soit en termes de budget ou de goûts. Même en ayant dû reporter déjà 2 fois à cause de la situation actuelle, Alex ne nous lâche pas et continue de nous soutenir et de nous motiver. Pouvoir se reposer sur quelqu'un de confiance pour le plus beau jour de nos vies n'a vraiment pas de prix. Merci de tout ton temps, ta détermination et ta patience envers nous!",
+      "car": [
+        {
+          "url":photo1
+        },
+        {
+          "url":photo2
+        },
+        {
+          "url":photo3
+        },
+        {
+          "url":photo4
+        },
+        {
+          "url":photo5
+        },
+        {
+          "url":photo6
+        },
+      ]
+    },
+  ],
+  "temoinEVJF":[
+    {
+      "date": "Août 2020",
+      "name": "Fanny",
+      "com": "Une organisatrice qui pense à tout pour rendre vos évènements aussi beaux que vous les aviez imaginés. Une confiance aveugle à cette jeune femme pétillante ! Merci d'avoir organisé le meilleur enterrement de vie de jeune fille, nous étions toutes ravies et cétait inoubliable !",
+      "car": [
+        {
+          "url":photo7
+        },
+        {
+          "url":photo8
+        },
+        {
+          "url":photo9
+        },
+        {
+          "url":photo10
+        },
+        {
+          "url":photo11
+        },
+        {
+          "url":photo12
+        },
+    ]
+    },{
+      "date": "Août 2020",
+      "name": "Marion",
+      "com": "Un grand merci à toi Alex pour nous avoir soutenu et surtout encadrer pour l'enterrement de vie de jeune fille de Mélissa et surtout organiser un petit moment entre nous toutes comme on a voulu. Vivement la prochaine fois où l'on aura besoin de toi ! Organisatrice au top, je recommande les yeux fermés !",
+      "car": [
+        {
+          "url":photo8
+        },
+        {
+          "url":photo9
+        },
+        {
+          "url":photo10
+        },
+        {
+          "url":photo11
+        },
+        {
+          "url":photo12
+        },
+        {
+          "url":photo13
+        },
+        {
+          "url":photo14
+        },
+        {
+          "url":photo15
+        },
+        {
+          "url":photo16
+        },
+      ]
+    },{
+      "date": "2020",
+      "name": "Mélissa",
+      "com": "Se marier en temps de pandémie n'est ni facile ni évident. Organiser un mariage tout en ayant un travail à temps plein est quelque chose qui nécessite davantage d'organisation et de temps. Alex nous a aidé, mon chéri et moi à avancer dans notre organisation comme une vrai pro! Elle est attentive aux moindres détails et surtout à l'écoute de nos besoins, que ce soit en termes de budget ou de goûts. Même en ayant dû reporter déjà 2 fois à cause de la situation actuelle, Alex ne nous lâche pas et continue de nous soutenir et de nous motiver. Pouvoir se reposer sur quelqu'un de confiance pour le plus beau jour de nos vies n'a vraiment pas de prix. Merci de tout ton temps, ta détermination et ta patience envers nous!",
+      "car": [
+        {
+          "url":photo13
+        },
+        {
+          "url":photo14
+        },
+        {
+          "url":photo15
+        },
+        {
+          "url":photo16
+        },
+        {
+          "url":photo17
+        },
+        {
+          "url":photo18
+        },
+     ]
+    },
+  ],
+  "temoinHBD":[
+    {
+      "date": "",
+      "name": "",
+      "com": "",
+      "car": []
+    },
+  ],
+  "temoinETS":[
+    {
+      "date": "",
+      "name": "",
+      "com": "",
+      "car": []
+    },
+  ],
+  "eventAuth1": "Mae West",
+  "eventCit1": "On est jamais trop vieux pour rajeunir",
+  "eventAuth2": "Confidentielles",
+  "eventCit2": "Souvent je me remémore les bons moments et je souris comme un(e) idiot(e)",
+  "eventAuth3": "Robert Lassus",
+  "eventCit3": "Je travaille à être heureux c'est le plus beaux des métiers",
+  "eventAuth4": "",
+  "eventCit4": "",
   "carousel":[
     {
       "url":photo1
@@ -180,13 +316,18 @@ let resumeData = {
   "devs":[
     {
       "name": "Christophe TURPIN",
-      "img": logoC,
+      "logo": logoC,
       "url":"https://cv-christophe-turpin.netlify.app"
     },
     {
-      "name":"Kenny PHIRI",
-      "img":"logoK",
-      "url":"https://phiri-kenny.netlify.app"
+      "name": "Kenny PHIRI",
+      "logo": logoK,
+      "url": "https://phiri-kenny.netlify.app"
+    },
+    {
+      "name": "Nadir ABDELOUAHAB",
+      "logo": "",
+      "url": ""
     },
   ]
 }
