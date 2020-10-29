@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import './nav.css';
 import resumeData from '../assets/resumeData';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavMenu = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
@@ -22,20 +22,20 @@ const NavMenu = () => {
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="mr-auto" navbar>
 					<NavItem>
-						<Link to='/' className="nav-link active" offset='100' href="#about">A propos</Link>
+						<NavLink to='/' exact activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#about">A propos</NavLink>
 					</NavItem>
 					<NavItem>
-						<Link to='/mariage' className="nav-link active" offset='100' href="#competences">Mariage</Link>
+						<NavLink to='/mariage' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#competences">Mariage</NavLink>
 					</NavItem>
 					<NavItem>
-						<Link to='/evenementiel' className="nav-link active" offset='100' href="#portfolio">Evènementiel</Link>
+						<NavLink to='/evenementiel' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#portfolio">Evènementiel</NavLink>
 					</NavItem>
 					<NavItem>
-						<Link to='/contact' className="nav-link active" offset='100' href="#contact">Contact</Link>
+						<NavLink to='/contact' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#contact">Contact</NavLink>
 					</NavItem>
 					{resumeData.socialLinks && resumeData.socialLinks.map((item) => 
 						<NavItem>
-							<a className="nav-link active" target="blank" href={item.url} key={item.name}><i className={item.className}/></a>
+							<a className="navbar__link" target="blank" href={item.url} key={item.name}><i className={item.className}/></a>
 						</NavItem>
 					)}
 				</Nav>

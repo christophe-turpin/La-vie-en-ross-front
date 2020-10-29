@@ -1,5 +1,27 @@
-body{background:white;}
-#ct{height:150px; width:370px;border:1px solid pink;margin: 100px auto;text-align:center;position:relative;color:#fff;padding:15px;}
+body{
+  background:white;
+}
+#ct{
+  height:150px; 
+  width:370px;
+  border:1px solid pink;
+  margin: 100px auto;
+  text-align:center;
+  position:relative;
+  color:#fff;
+  padding:15px;
+}
+#quote {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+  padding: 0;
+}
+#carDiv {
+  display: flex;
+  justify-content: center;
+}
 span{
   background:white;
   color: black;
@@ -37,4 +59,38 @@ span{
   right:-16px;
   border-color: pink transparent transparent transparent;
 }
-p{padding-top:13px;font-size:18px; color:black;}
+p{
+  padding-top:13px;
+  font-size:18px; 
+  color:black;
+}
+.contactButton{
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 20px;background-image: url('../assets/images/header-background.jpg');
+	background-repeat: no-repeat;
+	color: rgb(218, 119, 193);;
+	background-size: cover;
+}
+#presta {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.prestacard {
+  width: 120px;
+  height: 190px;
+}
+.cardImg{
+  background-color: black;
+}
+.cardTitle {
+  font-weight: 700;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+#mariagePrices{
+  text-align: center;
+}

@@ -30,10 +30,15 @@
     color: white;
 }
 .navbar a{
-    color: white;
+    color: rgb(218, 119, 193);
 }
-.nav-link:hover{
-    color: rgb(218, 119, 193) !important;
+.navbar__link:hover{
+    color: white !important;
+}
+
+.navbar__link--active{
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .navbar-brand{

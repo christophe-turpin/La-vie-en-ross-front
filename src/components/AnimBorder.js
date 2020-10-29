@@ -9,7 +9,7 @@ const AnimBorder = () => {
 			<div class="inner-header flex">
 				<h1 className="title">{resumeData.title}</h1>
 			</div>
-			<Carousel/>
+			<Carousel carousel={resumeData.carousel}/>
 			<div className='waveDiv'>
 				<svg
 					class="waves"

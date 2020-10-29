@@ -1,72 +1,98 @@
 import React from "react";
 import "./mariage.css";
-import { Container } from "reactstrap";
+import {
+  Col,
+  Card,
+  CardImg,
+  CardBody,
+  CardTitle,
+  Table
+} from "reactstrap";
+import resumeData from "../assets/resumeData";
+import Carousel from "./Carousel";
+import { Link } from "react-router-dom";
 
 const Mariage = () => {
   return (
-    <Container fluid='xs' className="mariage">
-          {/* <blockquote>Quand on aime le jour de son mariage, on aime pour la vie!</blockquote>
-                <cite>Jospeh Lallier</cite> */}
+    <div className="about" id="about">
+      <div className="columns">
+        <Col className="image" md="4">
+          <img className="Alex" src={resumeData.mariagePic} alt="alex" />
+        </Col>
+        <Col md="8">
           <div id="ct">
             <div class="corner " id="left_top"></div>
             <div class="corner" id="left_bottom"></div>
             <div class="corner" id="right_top"></div>
             <div class="corner" id="right_bottom"></div>
-            <span>Joseph Lallier</span>
-            <blockquote>
+            <span>{resumeData.mariageAuth}</span>
+            <blockquote id="quote">
               <p>
-                <i>
-                  &ldquo;Quand on aime le jour de son mariage on aime pour la
-                  vie ! &rdquo;{" "}
-                </i>
+                <i id="iquote">&ldquo;{resumeData.mariageCit} &rdquo; </i>
               </p>
             </blockquote>
           </div>
-          <p>
-            {" "}
-            Le Mariage est un passage de la vie auquel beaucoup de personnent
-            aspirent.
-          </p>
-          <p>
-            Une journée unique, la vôtre, que vous devrier déguster et apprécier
-            tout le long !
-          </p>
-          <p>Photo</p>
-          <p>Bienvenue dans les mariages de la vie en Ross! </p>
-          <p>
-            Je m'entoure des meilleures prestataiures, ceux s'accordant le plus
-            possible au mariage de vos rêves, tel un menu accorde mets et vins
-          </p>
-
-          <table>
+          <h1>{resumeData.mariageh1}</h1>
+          <h2>{resumeData.mariageh2}</h2>
+          <div id="carDiv">
+            <Carousel carousel={resumeData.carousel} />
+          </div>
+          <h2>{resumeData.mariageWelcome}</h2>
+          <h3>{resumeData.mariageEntour}</h3>
+          <div id="presta">
+            {resumeData.prestataires &&
+              resumeData.prestataires.map((item) => (
+                <Card className='prestacard' key={item.name}>
+                  <CardImg
+                    className="cardImg"
+                    center
+                    width= "auto"
+                    height="auto"
+                    src={item.logo}
+                    alt={item.name}
+                  />
+                  <CardBody>
+                    <CardTitle className='cardTitle'>{item.name}</CardTitle>
+                    {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
+                    {/* <CardText>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </CardText>
+                    <Button>Button</Button> */}
+                  </CardBody>
+                </Card>
+              ))}
+          </div>
+          <Table hover id='mariagePrices'>
             {/* <caption>Prestations: </caption> */}
 
             {/* <tr>
                             <th>Titre colonne 1</th>
                             <th>Titre colonne 2</th>
                         </tr> */}
-            <thead>Prestations:</thead>
+            <thead>
             <tr>
-              <td>Détendez vous on s'occupe de tout</td>
-              <td>Organisation de A à Z de votre mariage jusqu'au Jour-J</td>
-              <td>À partir de 2500€</td>
+            <th colspan="3">Prestations:</th>
             </tr>
-
-            <tr>
-              <td>À la carte </td>
-              <td>
-                Besoin d'une aide complémentaire pour avancer jusqu'au Jour-J
-              </td>
-              <td>À partir de 1200€</td>
-            </tr>
-            <tr>
-              <td>Only Jour-J</td>
-              <td>Répétition et coordination du Jour-J</td>
-              <td>À partir de 900€</td>
-            </tr>
-          </table>
-          <button>Obtenir un devis</button>
-    </Container>
+            </thead>
+            <tbody>
+              {resumeData.prestations && resumeData.prestations.map(item =>
+                <tr>
+                  <th scope='row'>{item.name}</th>
+                  <td>{item.describe}</td>
+                  <td>{item.price}</td>
+                </tr>
+              )} 
+            </tbody>
+          </Table>
+          <Link to="/contact">
+            <div className="evenCarousel">
+              <button className="contactButton">Obtenir un devis</button>
+            </div>
+          </Link>
+        </Col>
+      </div>
+    </div>
   );
 };
 

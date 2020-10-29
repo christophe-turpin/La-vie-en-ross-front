@@ -6,7 +6,6 @@ import {
     CarouselControl,
     CarouselIndicators,
   } from 'reactstrap';
-import resumeData from '../assets/resumeData'
 import './anim.css'
   
   
@@ -14,7 +13,7 @@ import './anim.css'
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
-    const items = resumeData.carousel;
+    const items = props.carousel;
 
     const next = () => {
       if (animating) return;
@@ -33,7 +32,7 @@ import './anim.css'
       setActiveIndex(newIndex);
     }
   
-    const slides = items.map((item) => {
+    const slides = items && items.map((item) => {
       return (
         <CarouselItem
           className="custom-tag"
