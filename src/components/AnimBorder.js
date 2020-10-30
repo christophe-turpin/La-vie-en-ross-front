@@ -4,9 +4,8 @@ import resumeData from "../assets/resumeData";
 import Carousel from "./Carousel";
 
 const AnimBorder = () => {
-  const [firstValue, setFirstValue] = useState(true);
   const [usedTitle, setUsedTitle] = useState(resumeData.title1);
-  const [title, setTitle] = useState(resumeData.title1);
+  const [title, setTitle] = useState(usedTitle);
   const [rotate, setRotate] = useState("-");
 
   function txtRotate() {
@@ -14,10 +13,9 @@ const AnimBorder = () => {
       if (title.length > usedTitle.length - 4 && rotate === "-") {
         setTitle(title.substr(0, title.length - 1));
       } else if (title.length === usedTitle.length - 4) {
-        setFirstValue(!firstValue);
-        firstValue
-          ? setUsedTitle(resumeData.title1)
-          : setUsedTitle(resumeData.title2);
+        usedTitle === 'La Vie en ROSE'
+          ? setUsedTitle('La Vie en ROSS')
+          : setUsedTitle('La Vie en ROSE');
         setRotate("+");
         setTitle(usedTitle.substr(0, title.length + 1));
       } else if (title.length < usedTitle.length && rotate === "+") {
@@ -33,6 +31,7 @@ const AnimBorder = () => {
   
   useEffect(() => {
     txtRotate();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [title]);
 
   return (
