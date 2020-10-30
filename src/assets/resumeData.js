@@ -25,7 +25,8 @@ import MariagePic from './images/Alex2.jpeg'
 
 let resumeData = {
   "imagebaseurl":rose,
-  'title': "La Vie en ROSS",
+  'title1': "La Vie en ROSE",
+  'title2': "La Vie en ROSS",
   "name": "Alexandra ROSS",
   "role": "Fondatrice",
   "roleDescription": "Présentant une certaine appétance pour le front-end je reste à l'aise en back-end et cherche surtout à monter en compétences afin de pouvoir mener un maximum de projets à leur terme",

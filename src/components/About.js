@@ -8,10 +8,10 @@ const About = () => {
 	return (
 		<div className="about">
 			<div className="columns">
-				<Col className="image" md="4">
+				<Col className="image" lg="4">
 					<img className="Alex" src={resumeData.aboutPic} alt="alex" />
 				</Col>
-				<Col md="8">
+				<Col lg="8" md='12'>
 					<h1 className="presentation">{resumeData.name} - {resumeData.role}</h1>
 					<h3 className="soutitle">{resumeData.aboutTitle}</h3>
 					{ resumeData.aboutText && resumeData.aboutText.map(item => <p className="me" key={item}>{item}</p>

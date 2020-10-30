@@ -42,6 +42,7 @@ span{
 .comItem {
   display: flex !important;
   flex-flow: column nowrap !important;
+  max-width: 100%;
 }
 .comRow {
 margin-top: 20px;
@@ -51,6 +52,8 @@ margin-top: 20px;
 }
 .com {
   font-style: italic;
+  max-width: 100%;
+  padding: 15px;
 }
 
 #left_top{
@@ -83,6 +86,6 @@ p{
 	border-radius: 20px;
 	padding: 20px;background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
-	color: rgb(218, 119, 193);;
+	color: rgb(218, 119, 193);
 	background-size: cover;
 }

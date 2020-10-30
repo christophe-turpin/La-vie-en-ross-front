@@ -11,7 +11,7 @@ import { Container } from "reactstrap"
 
 const Router = () => {
 	return (
-		<Container fluid='m'>
+		<Container fluid='l'>
 			<Navmenu/>
 			<AnimBorder />
 			<Switch>

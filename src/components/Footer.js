@@ -6,7 +6,7 @@ import resumeData from "../assets/resumeData";
 const Footer = () => {
   return (
     <div className="footer">
-      <Col id="presta" md="9">
+      <Col id="presta" lg="9" >
         {resumeData.prestataires &&
           resumeData.prestataires.map((item) => (
             <a href={item.website} target="blank">
@@ -32,7 +32,10 @@ const Footer = () => {
             </a>
           ))}
       </Col>
-      <Col md="3" className="devContent">
+    <Col id='mobilePresta' md="3">
+        <button className='contactButton'>Afficher les prestataires</button>
+    </Col>
+      <Col lg="3" md="9" className="devContent">
         <h4 className="devTitle">Ce site a été crée par :</h4>
         <div className="devResponse">
           {resumeData.devs &&
@@ -43,7 +46,7 @@ const Footer = () => {
                   <img
                     src={item.logo}
                     className="logodev"
-                    alt={`logo ${item.name}`}
+                    alt={`logo dev`}
                   />
                 </a>
               </div>

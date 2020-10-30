@@ -95,7 +95,7 @@
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -107,6 +107,9 @@
       position: fixed;
       top: 0;
       right: 0;
+   }
+   .Alex{
+      display: none;
    }
    #nav-wrap > a {
 	   width: 48px;

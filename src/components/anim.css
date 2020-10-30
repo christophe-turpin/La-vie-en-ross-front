@@ -19,11 +19,15 @@ body {
 	height: 45vh;
 	margin: -20px;
 }
+.carousel-inner {
+	max-width: 100%;
+}
 .header {
 	position: relative;
 	text-align: center;
 	background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
+	width: 100%;
 	color: white;
 	background-size: cover;
 	display: flex;
@@ -33,9 +37,10 @@ body {
 	height: 77vh;
 }
 .Htitle {
-	font-size: 22;
-	font-weight: bolder;
+	font-size: xx-large;
+	font-weight: 900;
 	color: white;
+	text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
 }
 .inner-header {
 	width: 100%;

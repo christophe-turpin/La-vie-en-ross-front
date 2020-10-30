@@ -9,7 +9,9 @@
     color: black;
     margin-left: 20px;
 }
-
+#mobilePresta {
+    display: none;
+}
 .footer{
     display: flex;
     align-items: center;
@@ -32,9 +34,9 @@
     color: black;
 }
 .prestacard {
-    width: 100px;
-    height: 150px;
-    margin-right: 20px;
+    width: 5vw;
+    height: 120px;
+    margin-right: 2vw;
     background: transparent !important;
     border: 0ch !important;
 }
@@ -45,17 +47,14 @@
     padding: 0px !important;
 }
 .cardTitle {
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 1vw;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
 }
-#mariagePrices{
-    text-align: center;
-}
 .devTitle {
+    padding-top: 15px;
     align-self: flex-start;
 }
 .devItem{
@@ -64,7 +63,7 @@
     justify-content: space-evenly;
     color: black !important;
     width: 100%;
-    margin-left: 20px;
+    font-size: 1vw;
     margin-right: 20px;
 }
 .devContent{
@@ -102,4 +101,22 @@
 
 .medialogo{
     padding: 15px;
+}
+
+@media (max-width: 991px) {
+	#presta {
+        display: none;
+    }
+    #mobilePresta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .devTitle {
+        align-self: center;
+    }
+    .contactButton {
+        align-self: center;
+        justify-content: center;
+    }
 }

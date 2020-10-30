@@ -62,10 +62,20 @@ li{
 @media (min-width: 320px) and (max-width: 480px) {
     .navbar-collapse {
         flex-basis: 100%;
-        flex-grow: 1;
+        flex-grow: 5;
         align-items: center;
         background-color: #333333 !important;
-	}
+    }
+    .mr-auto {
+        background-image: url('../assets/images/header-background.jpg');
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        padding-top: 50px;
+        display: flex !important;
+        flex-flow: column nowrap !important;
+        justify-content: space-evenly !important;
+        align-items: center;
+    }
   
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;

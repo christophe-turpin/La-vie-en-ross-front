@@ -8,10 +8,10 @@ const Portfolio = () => {
   return (
     <div className="about">
       <div className="columns">
-        <Col className="image" md="4">
+        <Col className="image" lg="4">
           <img className="Alex" src={resumeData.mariagePic} alt="alex" />
         </Col>
-        <Col md="8">
+        <Col lg="8" md="12">
           <h2 className="title">Anniversaires</h2>
           <div id="ct">
             <div className="corner " id="left_top" />
