@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { Col, Card, CardImg, CardBody, CardText, CardTitle } from "reactstrap";
+import { Col, Card, CardImg, CardBody, CardText } from "reactstrap";
 import resumeData from "../assets/resumeData";
 
 const Footer = () => {
