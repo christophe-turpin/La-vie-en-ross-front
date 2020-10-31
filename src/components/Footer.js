@@ -2,8 +2,10 @@ import React from "react";
 import "./footer.css";
 import { Col, Card, CardImg, CardBody, CardText } from "reactstrap";
 import resumeData from "../assets/resumeData";
+import PrestaModal from './PrestaModal'
 
 const Footer = () => {
+  
   return (
     <div className="footer">
       <Col id='prestDiv' lg="9" >
@@ -37,7 +39,7 @@ const Footer = () => {
           </div>
       </Col>
     <Col id='mobilePresta' md="3">
-        <button className='contactButton'>Afficher les prestataires</button>
+        <PrestaModal buttonLabel='Voir les prestataires' />
     </Col>
       <Col lg="3" md="8" className="devContent">
         <h4 className="devTitle">Ce site a été crée par :</h4>

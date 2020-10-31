@@ -138,6 +138,12 @@
         align-self: center;
         justify-content: center;
     }
+    .contactButton:hover {
+        background: none;
+    }
+    .contactButton:active {
+        background: none;
+    }
     .devName {
         font-size: 3vw;
     }

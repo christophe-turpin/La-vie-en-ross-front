@@ -4,7 +4,7 @@ import resumeData from "../assets/resumeData";
 import Carousel from "./Carousel";
 
 const AnimBorder = () => {
-  const [usedTitle, setUsedTitle] = useState(resumeData.title1);
+  const [usedTitle, setUsedTitle] = useState('ROSE');
   const [title, setTitle] = useState(usedTitle);
   const [rotate, setRotate] = useState("-");
 
@@ -13,9 +13,9 @@ const AnimBorder = () => {
       if (title.length > usedTitle.length - 4 && rotate === "-") {
         setTitle(title.substr(0, title.length - 1));
       } else if (title.length === usedTitle.length - 4) {
-        usedTitle === 'La Vie en ROSE'
-          ? setUsedTitle('La Vie en ROSS')
-          : setUsedTitle('La Vie en ROSE');
+        usedTitle === 'ROSE'
+          ? setUsedTitle('ROSS')
+          : setUsedTitle('ROSE');
         setRotate("+");
         setTitle(usedTitle.substr(0, title.length + 1));
       } else if (title.length < usedTitle.length && rotate === "+") {
@@ -37,7 +37,8 @@ const AnimBorder = () => {
   return (
     <div className="header">
       <div className="inner-header flex">
-        <h1 className="Htitle">{title}</h1>
+        <h1 className="Rtitle">{title}</h1>
+        <h1 className="Htitle">La vie en </h1>
       </div>
       <Carousel carousel={resumeData.carousel} />
       <div className="waveDiv">

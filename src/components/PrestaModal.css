@@ -1,0 +1,60 @@
+#Modal {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.contactButton{
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 20px;background-image: url('../assets/images/header-background.jpg');
+	background-repeat: no-repeat;
+	color: rgb(218, 119, 193);;
+    background-size: cover;
+    border: none;
+}
+.contactButton:hover {
+    background: none;
+    border: none !important;
+}
+.contactButton:active {
+    background: none;
+    border: none !important;
+}
+#ModPresta {
+    height: fit-content !important;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 0px;
+    line-height: 30vh;
+    font-size: smaller !important;
+}
+#ModPresta a {
+    width: 100% !important;
+    max-height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: black;
+    padding: 0px;
+    margin-top: 5px;
+}
+.divItm {
+    max-width: 100%;
+    display: inline-flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.cardImg{
+    background-color: black;
+    min-width: 10% !important;
+    max-width: 10% !important;
+}
+.ModItem {
+    max-height: 20px;
+}
