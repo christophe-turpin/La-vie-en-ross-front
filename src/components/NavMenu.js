@@ -22,16 +22,16 @@ const NavMenu = () => {
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="mr-auto" navbar>
 					<NavItem>
-						<NavLink to='/' exact activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#about">A propos</NavLink>
+						<NavLink onClick={toggle} to='/' exact activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#about">A propos</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to='/mariage' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#competences">Mariage</NavLink>
+						<NavLink onClick={toggle} to='/mariage' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#competences">Mariage</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to='/evenementiel' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#portfolio">Evènementiel</NavLink>
+						<NavLink onClick={toggle} to='/evenementiel' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#portfolio">Evènementiel</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink to='/contact' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#contact">Contact</NavLink>
+						<NavLink onClick={toggle} to='/contact' activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#contact">Contact</NavLink>
 					</NavItem>
 					{resumeData.socialLinks && resumeData.socialLinks.map((item) => 
 						<NavItem>
