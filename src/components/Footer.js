@@ -1,26 +1,29 @@
 import React from "react";
 import "./footer.css";
-import { Col, Card, CardImg, CardBody, CardTitle } from "reactstrap";
+import { Col, Card, CardImg, CardBody, CardText, CardTitle } from "reactstrap";
 import resumeData from "../assets/resumeData";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <Col id="presta" lg="9" >
+      <Col id='prestDiv' lg="9" >
+      <p>Ils me font confiance:</p>
+        <div id="presta">
         {resumeData.prestataires &&
           resumeData.prestataires.map((item) => (
             <a href={item.website} target="blank">
               <Card className="prestacard" key={item.name}>
-                <CardImg
-                  className="cardImg"
+                <div className='divImg'>
+                <CardImg className="cardImg"
                   top
                   width="auto"
                   height="auto"
                   src={item.logo}
                   alt={item.name}
                 />
-                <CardBody>
-                  <CardTitle className="cardTitle">{item.name}</CardTitle>
+                </div>
+                <CardBody className='cardBody'>
+                  <CardText className="cardTitle">{item.name}</CardText>
                   {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
                   {/* <CardText>
                       Some quick example text to build on the card title and
@@ -31,11 +34,12 @@ const Footer = () => {
               </Card>
             </a>
           ))}
+          </div>
       </Col>
     <Col id='mobilePresta' md="3">
         <button className='contactButton'>Afficher les prestataires</button>
     </Col>
-      <Col lg="3" md="9" className="devContent">
+      <Col lg="3" md="8" className="devContent">
         <h4 className="devTitle">Ce site a été crée par :</h4>
         <div className="devResponse">
           {resumeData.devs &&

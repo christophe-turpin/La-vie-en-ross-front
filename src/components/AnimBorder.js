@@ -25,7 +25,7 @@ const AnimBorder = () => {
           setRotate("-");
           setTitle(title.substr(0, title.length - 1));
         }, 1000)
-      }
+      } 
     }, 200);
   }
   

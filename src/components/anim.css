@@ -35,11 +35,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 77vh;
+	padding-top: 30px;
 }
 .Htitle {
 	font-size: xx-large;
 	font-weight: 900;
 	color: white;
+	margin-bottom: 20px;
 	text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
 }
 .inner-header {

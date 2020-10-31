@@ -2,8 +2,8 @@ body{
   background:white;
 }
 #ct{
-  height:150px; 
-  width:375px;
+  height:fit-content; 
+  width:fit-content;
   border:1px solid pink;
   margin: 100px auto;
   text-align:center;

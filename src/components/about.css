@@ -3,6 +3,7 @@
 	flex-direction: column;
 	background-color: white;
 	padding-bottom: 30px;
+	max-width: 100%;
 }
 .image {
 	display: flex;
@@ -66,20 +67,19 @@ button:hover {
 }
 
 .me {
-	margin-top: 25px;
-	font-size: 2vw;
+	font-size: 1vw;
 	text-align: justify;
 	width: 90%;
+	margin-right: 0px !important;
 }
 
 .columns {
 	display: flex;
 	justify-content: center;
-	margin-left: 20px;
-	margin-right: 20px;
+	max-width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 991px) {
 	.image {
 		display: none;
     }
@@ -105,10 +105,10 @@ button:hover {
         padding: 10px 30px !important;
 	} 
 	.me {
-		margin-top: 25px;
-		font-size: 2vw;
+		font-size: 3vw;
 		text-align: justify;
-		width: 100%;
+		max-width: 100%;
+		margin-right: 0px !important;
 	}
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {

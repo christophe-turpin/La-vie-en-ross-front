@@ -18,7 +18,7 @@ const NavMenu = () => {
 
 	return (
 		<Navbar className={navbar ? "navbar active" : "navbar"} expand="md">
-			<NavbarToggler onClick={toggle} />
+			<NavbarToggler id='NBToggler' onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="mr-auto" navbar>
 					<NavItem>
