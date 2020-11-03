@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./anim.css";
-import resumeData from "../assets/resumeData";
 import Carousel3D from "./Carousel3D";
 
 const AnimBorder = () => {

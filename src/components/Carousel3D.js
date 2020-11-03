@@ -7,8 +7,11 @@ import resumeData from '../assets/resumeData'
 export default function Example() {
     
     const [goToSlide, setGoToSlide] = useState(0)
+    // eslint-disable-next-line no-unused-vars
     const [offsetRadius, setOffsetRadius] = useState(2)
+    // eslint-disable-next-line no-unused-vars
     const [showNavigation, setShowNavigation] = useState(false)
+    // eslint-disable-next-line no-unused-vars
     const [Config, setConfig] = useState(config.gentle)
 
     const carousel = resumeData.carousel.map(item => ({ key: uuidv4(), content: <img src={item.url} alt={resumeData.carousel.indexOf(item)}/>}))
