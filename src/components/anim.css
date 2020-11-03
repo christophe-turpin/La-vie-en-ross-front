@@ -42,14 +42,7 @@ body {
 	font-weight: 900;
 	color: white;
 	text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
-	position: absolute;
-	top: 70px;
-	z-index: 200;
 	font-family: AlexBrush ;
-}
-.Rtitle {
-	font-size: 100px;
-	font-weight: 900;
 }
 
 .inner-header {
