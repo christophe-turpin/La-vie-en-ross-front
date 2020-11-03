@@ -14,17 +14,16 @@ const About = () => {
 				<Col lg="8" md='9'>
 					<h1 className="presentation">{resumeData.name} - {resumeData.role}</h1>
 					<h3 className="soutitle">{resumeData.aboutTitle}</h3>
-					{ resumeData.aboutText && resumeData.aboutText.map(item => <p className="me" key={item}>{item}</p>
-					)}
+					{ 
+						resumeData.aboutText && resumeData.aboutText.map(item => <p className="me" key={item}>{item}</p>)
+					}
 					<p className='me'>{resumeData.aboutFinal}</p>
-					<Row className='aboutRow'>
-						<h4 className='aboutCategory'>Certifications :</h4>
-						<p>liens vers les diplomes</p>
-					</Row>
 					<Row className='aboutRow'>
 						<h4 className='aboutCategory'>Prestations :</h4>
 						<Link className='eventCarousel' to='/mariage'><button className="LinkButton">Mariage</button></Link>
+						<Link className='eventCarousel' to='/brunch'><button className="LinkButton">Brunch</button></Link>
 						<Link className='eventCarousel' to='/evenementiel'><button className="LinkButton">Evenementiel</button></Link>
+						<Link className='eventCarousel' to='/professionnel'><button className="LinkButton">Professionnel</button></Link>
 					</Row>
 					<Link to="/contact">
 						<div className="evenCarousel">
