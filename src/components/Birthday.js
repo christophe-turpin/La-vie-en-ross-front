@@ -1,7 +1,6 @@
 import React from "react";
 import "./evenementiel.css";
 import { Col , Row } from "reactstrap";
-import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 import resumeData from "../assets/resumeData";
 const Birthday = () => {
