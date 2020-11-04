@@ -314,6 +314,66 @@ let resumeData = {
       "name":"Some technical guy"
     }
   ],
+  "partenaireCit":"Je travaille à être heureux c'est le plus beaux des metiers",
+  "partenaire":[
+     { 
+       "citation":"Je travaille à être heureux c'est le plus beaux des metiers",
+       "auteur":"Robert LASSUS",
+      "titre":"Hôtels-Restaurant:",
+      "carousel":[
+        {
+          "url":""
+        },
+        {
+          "url":""
+        },
+    ],
+    "buttonlink":""
+    },
+    { 
+      "titre":"Salle de séminaire:",
+      "carousel":[
+        {
+          "url":""
+        },
+        {
+          "url":""
+        },
+    ],
+    "buttonlink":""
+    },
+    { 
+      "titre":"Domaines et châteaux"
+    },
+    { 
+      "titre":"Gîtes:"
+    },
+  ],
+  "partiePro":[
+    {
+      "titre":"Séminaire:",
+      "citation":"",
+      "paragraphe1":"Tout le monde a déjà participé à un séminaire classique, disposition en U ou classe, mais pourquoi ne pas rendre ces réunions un peu plus chaleureuses?",
+      "paragraphe2":"La vie en ROSS et ses différents lieux partenaires sont là pour vous accompagner à organiser des réunions thématiques, ludiques et conviviales pour vos collaborateurs et vous-même.",
+      "paragraphe3":"Donnez-nous vos idées, l’axe ou sujet principal de votre réunion et celui-ci sera mis en avant dans un cadre professionnel.",
+    },
+    {
+      "titre":"Afterwork:",
+      "citation":"Un afterwork consite à aller partager une bière ou un verre de vin entre collègues après le travail.",
+      "paragraphe1":"Cher hôtelier, cher restaurateur,Vous souhaitez faire connaître votre établissement à travers des concepts qui changent?",
+      "paragraphe2":"Organiser un afterwork Inviter vos amis, vos fidèles clients, les entreprises aux alentours qui se réuniront le temps d’une soirée chez vous pour parler travail mais pas que. Je suis là pour vous aider à organiser ses soirées en se focalisant sur différents thèmes. Let’s get it !",
+      "paragraphe3":"Chère entreprise,Vous souhaitez souder vos collaborateurs le temps d’une soirée, une fois par mois ou à d’autre fréquence La Vie en ROSS est là pour vous !Une soirée / un thème de quoi se réunir pour le travail avec plus de légèreté.",
+    
+    },
+    {
+      "titre":"Team Building/ Soirée d'entreprise:",
+      "citation":" Choisissez un travail que vous aimez et vous n’aurez pas à travailler un seul jour de votre vie ! ",
+      "paragraphe1":"Qui a dit que l’on ne pouvait pas allier travail et plaisir ; le travail devrait être un plaisir mais pour remotiver les troupes choisissez la team building !",
+      "paragraphe2":"",
+      "paragraphe3":"",
+    }
+  ]
+  ,
   "devs":[
     {
       "name": "Christophe TURPIN",
