@@ -1,8 +1,7 @@
 import React from "react";
 import "./mariage.css";
-import { Col, Row, Table } from "reactstrap";
+import { Col, Table } from "reactstrap";
 import resumeData from "../assets/resumeData";
-import Carousel from "./Carousel";
 import { Link } from "react-router-dom";
 
 const Mariage = () => {
@@ -27,53 +26,43 @@ const Mariage = () => {
           </div>
           <h1 className="presentation">{resumeData.mariageh1}</h1>
           <h2>{resumeData.mariageh2}</h2>
-          <h2>Témoignages</h2>
-          {resumeData.temoinMar &&
-            resumeData.temoinMar.map((item) => (
-              <div className="comItem">
-                <Row className="comRow">
-                  <h4 className="info">
-                    {item.date} par {item.name} :
-                  </h4>
-                  <p className="com">"{item.com}"</p>
-                  <div id="carDiv">
-                    <Carousel carousel={item.car} />
-                  </div>
-                </Row>
-              </div>
-            ))}
-          <div id="carDiv"></div>
+
           <h2>{resumeData.mariageWelcome}</h2>
           <h3>{resumeData.mariageEntour}</h3>
-          
-          <Table hover id="mariagePrices">
-            {/* <caption>Prestations: </caption> */}
+          <div className="tableButton">
+            <div>
+              <Table hover id="mariagePrices">
+                {/* <caption>Prestations: </caption> */}
 
-            {/* <tr>
+                {/* <tr>
                             <th>Titre colonne 1</th>
                             <th>Titre colonne 2</th>
                         </tr> */}
-            <thead>
-              <tr>
-                <th colSpan="3">Prestations:</th>
-              </tr>
-            </thead>
-            <tbody>
-              {resumeData.prestations &&
-                resumeData.prestations.map((item) => (
+                <thead>
                   <tr>
-                    <th scope="row">{item.name}</th>
-                    <td>{item.describe}</td>
-                    <td>{item.price}</td>
+                    <th colSpan="3">Prestations:</th>
                   </tr>
-                ))}
-            </tbody>
-          </Table>
-          <Link to="/contact">
-            <div className="evenCarousel">
-              <button className="contactButton">Obtenir un devis</button>
+                </thead>
+                <tbody>
+                  {resumeData.prestations &&
+                    resumeData.prestations.map((item) => (
+                      <tr>
+                        <th scope="row">{item.name}</th>
+                        <td>{item.describe}</td>
+                        <td>{item.price}</td>
+                      </tr>
+                    ))}
+                </tbody>
+              </Table>
             </div>
-          </Link>
+            <div>
+              <Link to="/contact">
+                <div className="evenCarousel">
+                  <button className="contactButton">Obtenir un devis</button>
+                </div>
+              </Link>
+            </div>
+          </div>
         </Col>
       </div>
     </div>

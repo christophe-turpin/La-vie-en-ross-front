@@ -11,6 +11,18 @@ body{background:white;}
 	padding: 20px;
 	background-color: rgb(218, 119, 193);
 }
+#quote {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+  padding: 0;
+}
+#carDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 #ct{
   height:150px; 
   width:375px;
@@ -36,6 +48,22 @@ span{
   transform:rotate(-45deg);  
   position:absolute;
   background:white;
+}
+.comItem {
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  align-items: stretch !important;
+}
+.comRow {
+  width: 100% !important;
+  margin-top: 20px;
+}
+.info {
+  font-weight: 600;
+}
+.com {
+  font-style: italic;
+  padding: 15px;
 }
 
 #left_top{

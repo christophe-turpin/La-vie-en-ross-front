@@ -20,16 +20,16 @@ const About = () => {
 					<p className='me'>{resumeData.aboutFinal}</p>
 					<Row className='aboutRow'>
 						<h4 className='aboutCategory'>Prestations :</h4>
-						<Link className='eventCarousel' to='/mariage'><button className="LinkButton">Mariage</button></Link>
-						<Link className='eventCarousel' to='/brunch'><button className="LinkButton">Brunch</button></Link>
-						<Link className='eventCarousel' to='/evenementiel'><button className="LinkButton">Evenementiel</button></Link>
-						<Link className='eventCarousel' to='/professionnel'><button className="LinkButton">Professionnel</button></Link>
+						<Link to='/mariage'><p className='prestaclick'>Mariage</p></Link>
+						<Link to='/brunch'><p className='prestaclick'>Brunch</p></Link>
+						<Link to='/evenementiel'><p className='prestaclick'>Evenementiel</p></Link>
+						<Link to='/professionnel'><p className='prestaclick'>Professionnel</p></Link>
 					</Row>
-					<Link to="/contact">
+					{/* <Link to="/contact">
 						<div className="evenCarousel">
 						<button className="contactButton">Contactez-nous</button>
 						</div>
-					</Link>
+					</Link> */}
 				</Col>
 			</div>
 		</div>

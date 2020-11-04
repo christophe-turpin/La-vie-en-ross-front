@@ -4,7 +4,11 @@ import Navmenu from './components/NavMenu'
 import AnimBorder from './components/AnimBorder'
 import Contact from './components/Contact';
 import Mariage from './components/Mariage';
-import Portfolio from './components/Portfolio';
+import Birthday from './components/Birthday';
+import EVJFEVG from './components/EVJFEVG';
+import GenderReveal from './components/GenderReveal';
+import MariageTemoignage from './components/MariageTemoignage';
+import PagesBientotDispo from './components/PagesBientotDispo';
 import About from './components/About'
 import Footer from './components/Footer'
 import { Container } from "reactstrap"
@@ -16,8 +20,12 @@ const Router = () => {
 			<AnimBorder />
 			<Switch>
 				<Route exact path="/" component={About} />
-				<Route path="/mariage" component={Mariage} />
-				<Route path="/evenementiel" component={Portfolio} />
+				<Route exact path="/mariage" component={Mariage} />
+				<Route path="/mariage/témoignages" component={MariageTemoignage} />
+				<Route path="/evenementiel/anniversaire" component={Birthday} />
+				<Route path="/evenementiel/evjfevg" component={EVJFEVG} />
+				<Route path="/evenementiel/genderreveal" component={GenderReveal} />
+				<Route path="/professionnel" component={PagesBientotDispo} />
 				<Route path="/contact" component={Contact} />
 			</Switch>
 			<Footer />

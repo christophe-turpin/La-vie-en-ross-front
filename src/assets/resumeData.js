@@ -42,11 +42,16 @@ let resumeData = {
       "url":"https://www.instagram.com/lavie_en_ross/?hl=fr",
       "className":"fa fa-instagram"
     },
+    {
+      "name":"Facebook",
+      "url":"https://www.facebook.com/lavieenross6/",
+      "className":"fa fa-facebook"
+    },
   ],
   "aboutPic": AboutPic,
   "aboutTitle": "A défaut de voir La Vie en Rose, voyez La Vie en ROSS!", 
   "aboutText":["Mon parcours professionnel se repose sur l’amour de mes passions.", "La Première : l’hôtellerie-restauration, ma famille ayant des hôtels-restaurant à Madagascar, mon pays natal, j’ai ça dans le sang ! Passionnée depuis mon plus jeune âge j’y consacre mes études ainsi que mes premiers jobs.", "A travers l’hôtellerie-restauration, je développe ma seconde passion : l’organisation événementielle. Le contact clientèle est quelque chose qui me fait lever le matin ! Mes collègues disaient de moi : « Amoureuse du travail bien fait et des relations clientèles, connaître parfaitement ses clients et les satisfaire répondaient à ses objectifs. ».", "Être Wedding-Planner est le but d’une vie me permettant de travailler pour moi et vivre de ma passion, qui a été confirmée par une formation de Wedding Planner & Wedding Designer en Mai 2020 (Petites miniatures de mes diplômes).", "Si vous êtes amené à me rencontrer vous découvrirez une amoureuse de l’amour qui souhaite faire vivre à ses clients le temps d’une journée et soirée leur « fairytale » avec comme fil conducteur leur propre histoire d’amour."],
-  "aboutFinal": 'Alors venez vivre l\'expérience "La vie en Ross" pour votre Jour-J qui sera sans doute le plus beau de votre vie !',
+  "aboutFinal": 'Alors venez vivre l\'expérience "La vie en Ross" pour votre Jour-J qui sera sans aucun doute le plus beau jour de votre vie !',
   "mariagePic": MariagePic,
   "mariageAuth": "Joseph Lallier",
   "mariageCit": "Quand on aime le jour de son mariage on aime pour la vie !",
@@ -118,136 +123,92 @@ let resumeData = {
       "date": "Octobre 2020",
       "name": "Mélissa",
       "com": "Se marier en temps de pandémie n'est ni facile ni évident. Organiser un mariage tout en ayant un travail à temps plein est quelque chose qui nécessite davantage d'organisation et de temps. Alex nous a aidé, mon chéri et moi à avancer dans notre organisation comme une vrai pro! Elle est attentive aux moindres détails et surtout à l'écoute de nos besoins, que ce soit en termes de budget ou de goûts. Même en ayant dû reporter déjà 2 fois à cause de la situation actuelle, Alex ne nous lâche pas et continue de nous soutenir et de nous motiver. Pouvoir se reposer sur quelqu'un de confiance pour le plus beau jour de nos vies n'a vraiment pas de prix. Merci de tout ton temps, ta détermination et ta patience envers nous!",
-      "car": [
-        {
-          "url":photo1
-        },
-        {
-          "url":photo2
-        },
-        {
-          "url":photo3
-        },
-        {
-          "url":photo4
-        },
-        {
-          "url":photo5
-        },
-        {
-          "url":photo6
-        },
-      ]
+    },
+  ],
+  "MariageCarousel": [
+    {
+      "url":photo1
+    },
+    {
+      "url":photo2
+    },
+    {
+      "url":photo3
+    },
+    {
+      "url":photo4
+    },
+    {
+      "url":photo5
+    },
+    {
+      "url":photo6
     },
   ],
   "temoinEVJF":[
     {
       "date": "Août 2020",
       "name": "Fanny",
-      "com": "Une organisatrice qui pense à tout pour rendre vos évènements aussi beaux que vous les aviez imaginés. Une confiance aveugle à cette jeune femme pétillante ! Merci d'avoir organisé le meilleur enterrement de vie de jeune fille, nous étions toutes ravies et cétait inoubliable !",
-      "car": [
-        {
-          "url":photo7
-        },
-        {
-          "url":photo8
-        },
-        {
-          "url":photo9
-        },
-        {
-          "url":photo10
-        },
-        {
-          "url":photo11
-        },
-        {
-          "url":photo12
-        },
-    ]
+      "com": "Une organisatrice qui pense à tout pour rendre vos évènements aussi beaux que vous les aviez imaginés. Une confiance aveugle à cette jeune femme pétillante ! Merci d'avoir organisé le meilleur enterrement de vie de jeune fille, nous étions toutes ravies et c'était inoubliable !",
     },{
       "date": "Août 2020",
       "name": "Marion",
       "com": "Un grand merci à toi Alex pour nous avoir soutenu et surtout encadrer pour l'enterrement de vie de jeune fille de Mélissa et surtout organiser un petit moment entre nous toutes comme on a voulu. Vivement la prochaine fois où l'on aura besoin de toi ! Organisatrice au top, je recommande les yeux fermés !",
-      "car": [
-        {
-          "url":photo8
-        },
-        {
-          "url":photo9
-        },
-        {
-          "url":photo10
-        },
-        {
-          "url":photo11
-        },
-        {
-          "url":photo12
-        },
-        {
-          "url":photo13
-        },
-        {
-          "url":photo14
-        },
-        {
-          "url":photo15
-        },
-        {
-          "url":photo16
-        },
-      ]
-    },{
-      "date": "2020",
-      "name": "Mélissa",
-      "com": "Se marier en temps de pandémie n'est ni facile ni évident. Organiser un mariage tout en ayant un travail à temps plein est quelque chose qui nécessite davantage d'organisation et de temps. Alex nous a aidé, mon chéri et moi à avancer dans notre organisation comme une vrai pro! Elle est attentive aux moindres détails et surtout à l'écoute de nos besoins, que ce soit en termes de budget ou de goûts. Même en ayant dû reporter déjà 2 fois à cause de la situation actuelle, Alex ne nous lâche pas et continue de nous soutenir et de nous motiver. Pouvoir se reposer sur quelqu'un de confiance pour le plus beau jour de nos vies n'a vraiment pas de prix. Merci de tout ton temps, ta détermination et ta patience envers nous!",
-      "car": [
-        {
-          "url":photo13
-        },
-        {
-          "url":photo14
-        },
-        {
-          "url":photo15
-        },
-        {
-          "url":photo16
-        },
-        {
-          "url":photo17
-        },
-        {
-          "url":photo18
-        },
-     ]
+      
     },
   ],
-  "temoinHBD":[
+  "EVJFCarousel": [
     {
-      "date": "",
-      "name": "",
-      "com": "",
-      "car": []
+      "url":photo7
     },
-  ],
-  "temoinETS":[
     {
-      "date": "",
-      "name": "",
-      "com": "",
-      "car": []
+      "url":photo8
     },
-  ],
+    {
+      "url":photo9
+    },
+    {
+      "url":photo10
+    },
+    {
+      "url":photo11
+    },
+    {
+      "url":photo12
+    },
+],
+"temoinHBD":[
+  {
+    "date": "",
+    "name": "",
+    "com": "",
+  },
+],
+"HBDCarousel": [],
+"temoinGenderReveal":[
+  {
+    "date": "",
+    "name": "",
+    "com": "",
+  },
+],
+"GenderRevealCarousel": [],
+"temoinETS":[
+  {
+    "date": "",
+    "name": "",
+    "com": "",
+  },
+],
+  "ETSCarousel": [],
   "eventAuth1": "Mae West",
   "eventCit1": "On est jamais trop vieux pour rajeunir",
-  "eventAuth2": "Confidentielles",
+  "eventAuth2": "Confidentiel",
   "eventCit2": "Souvent je me remémore les bons moments et je souris comme un(e) idiot(e)",
   "eventAuth3": "Robert Lassus",
   "eventCit3": "Je travaille à être heureux c'est le plus beaux des métiers",
   "eventAuth4": "",
-  "eventCit4": "",
+  "eventCit4": "Boy or Girl, We « donut » know ",
   "carousel":[
     {
       "url":photo1

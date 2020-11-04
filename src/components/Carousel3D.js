@@ -45,7 +45,7 @@ export default function Example() {
 
 
     return (
-      <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
+      <div style={{ width: "80%", height: "80%", margin: "0 auto" }}>
         <Carousel
           slides={slides}
           goToSlide={goToSlide}

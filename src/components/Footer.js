@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Col id='prestDiv' lg="9" >
-      <p>Ils me font confiance:</p>
+      <p>Prestataires qui me font confiance:</p>
         <div id="presta">
         {resumeData.prestataires &&
           resumeData.prestataires.map((item) => (
@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className='divImg'>
                 <CardImg className="cardImg"
                   top
-                  width="auto"
+                  width="70%"
                   height="auto"
                   src={item.logo}
                   alt={item.name}
