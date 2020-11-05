@@ -75,6 +75,10 @@ button:hover {
 	text-align: center;
 	font-style: italic;
 }
+.prestaclick, Link {
+	margin: 7px;
+	width: fit-content;
+}
 
 .columns {
 	display: flex;

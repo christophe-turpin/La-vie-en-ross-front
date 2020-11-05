@@ -12,6 +12,7 @@ import PagesBientotDispo from './components/PagesBientotDispo';
 import About from './components/About'
 import Footer from './components/Footer'
 import { Container } from "reactstrap"
+import MariageThemes from './components/MariageThemes';
 
 const Router = () => {
 	return (
@@ -21,6 +22,7 @@ const Router = () => {
 			<Switch>
 				<Route exact path="/" component={About} />
 				<Route exact path="/mariage" component={Mariage} />
+				<Route path="/mariage/themes" component={MariageThemes} />
 				<Route path="/mariage/témoignages" component={MariageTemoignage} />
 				<Route path="/evenementiel/anniversaire" component={Birthday} />
 				<Route path="/evenementiel/evjfevg" component={EVJFEVG} />

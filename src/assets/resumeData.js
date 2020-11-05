@@ -58,7 +58,29 @@ let resumeData = {
   "mariageh1": "Le Mariage est un passage de la vie auquel beaucoup de personnes aspirent.",
   "mariageh2": "Une journée unique, la vôtre, que vous devriez déguster et apprécier tout le long !",
   "mariageWelcome": "Bienvenue dans les mariages de La Vie en Ross!",
-  "mariageEntour": "Je m'entoure des meilleures prestataires, ceux qui s'accordant le plus possible au mariage de vos rêves, tel un menu accorde mets et vins.",
+  "mariageEntour": "Je m'entoure des meilleures prestataires, ceux s'accordant le plus possible au mariage de vos rêves, tel un menu accord met et vins.",
+  "mariageTheme": [
+    {
+      "title": "Mariage building",
+      "description": ["Vous fêtez votre mariage civil un jour différent de votre mariage laïque ou religieux ?","Marquez le coup tout de même avec un « Aperitivo ! » avec vos proches le jour de votre mariage civil !", "Une location de salle 18h-00h dans un de nos lieux partenaires, un cocktail personnalisé sur place, des hébergements pour vous ou vos invités si besoin."]
+    },
+    {
+      "title": "Mariage rempli de couleurs",
+      "description": ["Quelle est votre couleur préférée ? ou alors, quelle couleur définie le plus votre couple ?", "Laissez-moi imagine le mariage le plus ressemblant à votre personnalité avec comme fil conducteur votre couleur préférée.", "Mon imagination fusionnera tel un arc-en-ciel."]
+    },
+    {
+      "title": "Mariage saisonnier",
+      "description": ["Il n’y a plus de saison pour les mariages, mais surtout aucune saison ne devrait vous empêcher de fêter votre mariage comme vous le souhaitez.", "Un mariage féérique en plein hiver telle la Reine des neiges ;", "Un mariage printanier totalement champêtre comme Pocahontas ;", "Un mariage estival, les pieds dans le sable telle Vahiana ;", "Un mariage automnal rempli de châtaignes et feuilles orangées comme Rebelle ?", "Adaptons la saison à vos envies !"]
+    },
+    {
+      "title": "Mariage qui voyage",
+      "description": ["Vous êtes des futurs mariés globe-trotter qui s’inspirent de leurs différents voyagent, d’une culture en particulier ou un pays en particulier ?", "Laissez-moi voyage à travers vos récits et créer le mariage exotique de votre vie."]
+    },
+  ],
+  "mariageMesure": {
+    "title": "Mariage sur mesure",
+    "description": "Parlez-moi de vous en remplissant le questionnaire ci-dessous et laissez-moi vous proposer 3 thématiques de mariage qui pourront-vous correspondre."
+  },
   "prestataires": [
     {
       "name": "Leyla Traiteur / Pâtissier",

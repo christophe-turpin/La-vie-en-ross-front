@@ -29,6 +29,14 @@ body{background:white;}
   justify-content: center !important;
   align-items: center !important;
   padding: 0;
+  bottom: -18px;
+}
+#GenderRevealQuote {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0;
+  bottom: -10px;
 }
 span{
   background:white;

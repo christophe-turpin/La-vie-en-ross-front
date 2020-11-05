@@ -41,7 +41,7 @@ const EVJFEVG = () => {
             <div id="carDiv">
                 <Carousel carousel={resumeData.EVJFCarousel} />
             </div>
-          <Link to="/contact">
+          <Link className='prestaclick' to="/contact">
             <div className="evenCarousel">
               <button className="contactButton">Obtenir un devis</button>
             </div>

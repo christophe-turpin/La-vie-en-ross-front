@@ -10,7 +10,7 @@ const PagesBientotDispo = () => {
         <div className="corner" id="left_bottom" />
         <div className="corner" id="right_top" />
         <div className="corner" id="right_bottom" />
-        <blockquote id="quote">
+        <blockquote id="GenderRevealQuote">
           <p>
             <i>&ldquo;Contenu bientôt disponible &rdquo; </i>
           </p>

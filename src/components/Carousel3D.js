@@ -5,7 +5,7 @@ import { config } from "react-spring";
 import resumeData from '../assets/resumeData'
 import './anim.css'
 
-export default function Example() {
+export default function Example(props) {
     
     const [goToSlide, setGoToSlide] = useState(0)
     // eslint-disable-next-line no-unused-vars
@@ -15,7 +15,7 @@ export default function Example() {
     // eslint-disable-next-line no-unused-vars
     const [Config, setConfig] = useState(config.gentle)
 
-    const carousel = resumeData.carousel.map(item => ({ key: uuidv4(), content: <img src={item.url} alt={resumeData.carousel.indexOf(item)}/>}))
+    const carousel = props.carousel.map(item => ({ key: uuidv4(), content: <img src={item.url} alt={resumeData.carousel.indexOf(item)}/>}))
 
 
 

@@ -20,7 +20,8 @@
     background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
 	color: black;
-	background-size: cover;
+    background-size: cover;
+    bottom: 0;
 }
 #prestDiv {
     display: flex;

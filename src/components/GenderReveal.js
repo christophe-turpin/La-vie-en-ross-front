@@ -18,7 +18,7 @@ const Birthday = () => {
             <div className="corner" id="left_bottom" />
             <div className="corner" id="right_top" />
             <div className="corner" id="right_bottom" />
-            <blockquote id='quote'>
+            <blockquote id='GenderRevealQuote'>
               <p>
                 <i>
                   &ldquo;{resumeData.eventCit4}&rdquo;{" "}
@@ -40,7 +40,7 @@ const Birthday = () => {
             <div id="carDiv">
                 <Carousel carousel={resumeData.GenderRevealCarousel} />
             </div>
-          <Link to="/contact">
+          <Link className='prestaclick' to="/contact">
             <div className="evenCarousel">
               <button className="contactButton">Obtenir un devis</button>
             </div>

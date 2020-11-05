@@ -19,6 +19,7 @@ body{
   justify-content: center !important;
   align-items: center !important;
   padding: 0;
+  bottom: -18px;
 }
 span{
   background:white;
@@ -37,7 +38,7 @@ span{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  padding-right: 20%;
+  padding-right: 10%;
 }
 .corner{height:30px;
   width:30px;
@@ -114,6 +115,27 @@ p{
   margin-bottom: 20px;
 }
 
+/* Page themes */
+.themes{
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 20px;
+}
+.themeItem {
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  align-items: stretch !important;
+  width: 80%;
+  margin: 25px;
+}
+.themeTitle {
+  align-self: center;
+}
+.themeDescRow, .themeTitle {
+  width: fit-content;
+}
 
 @media (max-width: 991px){
   .tableButton {

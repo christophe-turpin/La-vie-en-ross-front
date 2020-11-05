@@ -26,7 +26,6 @@ const Mariage = () => {
           </div>
           <h1 className="presentation">{resumeData.mariageh1}</h1>
           <h2 className='centeredItalic'>{resumeData.mariageh2}</h2>
-
           <h2>{resumeData.mariageWelcome}</h2>
           <h3>{resumeData.mariageEntour}</h3>
           <div className="tableButton">
@@ -56,7 +55,7 @@ const Mariage = () => {
               </Table>
             </div>
             <div>
-              <Link to="/contact">
+              <Link className='prestaclick' to="/contact">
                 <div className="evenCarousel">
                   <button className="contactButton">Obtenir un devis</button>
                 </div>

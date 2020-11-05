@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import resumeData from "../assets/resumeData";
 import "./anim.css";
 import Carousel3D from "./Carousel3D";
 
@@ -38,7 +39,7 @@ const AnimBorder = () => {
       <div className="inner-header flex">
         <h1 className="Htitle">La Vie en {title}</h1>
       </div>
-      <Carousel3D/>
+      <Carousel3D carousel={resumeData.carousel}/>
       <div className="waveDiv">
         <svg
           className="waves"
