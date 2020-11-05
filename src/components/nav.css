@@ -21,8 +21,6 @@
     position: fixed !important;
     height: 100px !important;
     z-index: 400;
-    min-width: 100%;
-    max-width: 100%;
     transition: .5s;
     background-image: url('../assets/images/header-background.jpg');
 	background-repeat: no-repeat;
@@ -87,9 +85,10 @@ li{
     text-transform: uppercase;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 991px) {
     .navbar-collapse {
         flex-basis: 100%;
+        max-width: 100%;
         flex-grow: 5;
         align-items: center;
         background-color: #333333 !important;

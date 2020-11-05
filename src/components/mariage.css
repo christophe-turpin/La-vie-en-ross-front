@@ -2,21 +2,31 @@ body{
   background:white;
 }
 #ct{
-  height:fit-content; 
-  width:fit-content;
+  height:175px; 
+  width: fit-content;
   border:1px solid pink;
-  margin: 100px auto;
-  text-align:center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   position:relative;
   color:#fff;
   padding:10px;
+  margin: 0 auto;
 }
 #quote {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  margin-top: 20px;
   padding: 0;
+}
+span{
+  background:white;
+  color: black;
+  padding:0 10px;
+  font-size:20px;
+  position:relative; 
+  bottom:-60px;
 }
 #carDiv {
   display: flex;
@@ -26,15 +36,8 @@ body{
 .tableButton {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-span{
-  background:white;
-  color: black;
-  padding:0 10px;
-  font-size:20px;
-  position:relative; 
-  top:-28px;
+  align-items: flex-end;
+  padding-right: 20%;
 }
 .corner{height:30px;
   width:30px;
@@ -43,6 +46,13 @@ span{
   transform:rotate(-45deg);  
   position:absolute;
   background:white;
+}
+.PrestationTableTh {
+  width: 100%;
+  text-align: center;
+}
+#mariagePrices {
+  width: 80%;
 }
 .comItem {
   display: flex !important;
@@ -59,6 +69,10 @@ span{
 .com {
   font-style: italic;
   padding: 15px;
+}
+.centeredItalic {
+	text-align: center;
+	font-style: italic;
 }
 
 #left_top{
@@ -93,4 +107,18 @@ p{
 	background-repeat: no-repeat;
 	color: rgb(218, 119, 193);
 	background-size: cover;
+}
+/* page bientot dispo */
+#soon {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 991px){
+  .tableButton {
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
 }

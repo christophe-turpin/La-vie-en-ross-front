@@ -57,8 +57,8 @@ let resumeData = {
   "mariageCit": "Quand on aime le jour de son mariage on aime pour la vie !",
   "mariageh1": "Le Mariage est un passage de la vie auquel beaucoup de personnes aspirent.",
   "mariageh2": "Une journée unique, la vôtre, que vous devriez déguster et apprécier tout le long !",
-  "mariageWelcome": "Bienvenue dans les mariages de la vie en Ross!",
-  "mariageEntour": "Je m'entoure des meilleures prestataires, ceux s'accordant le plus possible au mariage de vos rêves, tel un menu accorde mets et vins.",
+  "mariageWelcome": "Bienvenue dans les mariages de La Vie en Ross!",
+  "mariageEntour": "Je m'entoure des meilleures prestataires, ceux qui s'accordant le plus possible au mariage de vos rêves, tel un menu accorde mets et vins.",
   "prestataires": [
     {
       "name": "Leyla Traiteur / Pâtissier",
@@ -203,7 +203,7 @@ let resumeData = {
   "ETSCarousel": [],
   "eventAuth1": "Mae West",
   "eventCit1": "On est jamais trop vieux pour rajeunir",
-  "eventAuth2": "Confidentiel",
+  "eventAuth2": "Confidentielles",
   "eventCit2": "Souvent je me remémore les bons moments et je souris comme un(e) idiot(e)",
   "eventAuth3": "Robert Lassus",
   "eventCit3": "Je travaille à être heureux c'est le plus beaux des métiers",

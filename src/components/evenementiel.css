@@ -11,27 +11,24 @@ body{background:white;}
 	padding: 20px;
 	background-color: rgb(218, 119, 193);
 }
+#ct{
+  height:175px; 
+  width: fit-content;
+  border:1px solid pink;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  color:#fff;
+  padding:10px;
+  margin: 0 auto;
+}
 #quote {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  margin-top: 20px;
   padding: 0;
-}
-#carDiv {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-#ct{
-  height:150px; 
-  width:375px;
-  border:1px solid pink;
-  margin: 100px auto;
-  text-align:center;
-  position:relative;
-  color:#fff;
-  padding:10px;
 }
 span{
   background:white;
@@ -39,7 +36,12 @@ span{
   padding:0 10px;
   font-size:20px;
   position:relative; 
-  top:-28px;
+  bottom:-60px;
+}
+#carDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .corner{height:30px;
   width:30px;

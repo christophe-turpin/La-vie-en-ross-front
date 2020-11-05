@@ -36,7 +36,7 @@ const AnimBorder = () => {
   return (
     <div className="header">
       <div className="inner-header flex">
-        <h1 className="Htitle">La vie en {title}</h1>
+        <h1 className="Htitle">La Vie en {title}</h1>
       </div>
       <Carousel3D/>
       <div className="waveDiv">

@@ -41,7 +41,7 @@ const Contact = () => {
 	return (
 		<div className="contact">
 		<Form onSubmit = {handleSubmit} id="contact">
-			<p className="lead">Pour toute demande n'hésitez pas à me contacter ! Je vous rappellerais dans les plus brefs délais</p>
+			<p className="lead">Pour toute demande, n’hésitez pas à me contacter, je reviendrai vers vous dans les plus brefs délais !</p>
 			<FormGroup>
 				<Label for="examplePassword">Nom/Prénom</Label>
 				<Input 

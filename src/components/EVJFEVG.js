@@ -3,6 +3,7 @@ import "./evenementiel.css";
 import { Col , Row } from "reactstrap";
 import Carousel from "./Carousel";
 import resumeData from "../assets/resumeData";
+import { Link } from "react-router-dom";
 const EVJFEVG = () => {
   return (
     <div className="about">
@@ -17,7 +18,6 @@ const EVJFEVG = () => {
               <div className="corner" id="left_bottom" />
               <div className="corner" id="right_top" />
               <div className="corner" id="right_bottom" />
-              <span>{resumeData.eventAuth2}</span>
               <blockquote id='quote'>
                 <p>
                   <i>
@@ -25,6 +25,7 @@ const EVJFEVG = () => {
                   </i>
                 </p>
               </blockquote>
+              <span>{resumeData.eventAuth2}</span>
             </div>
           {resumeData.temoinEVJF[0].date ?
             resumeData.temoinEVJF.map((item) => (
@@ -40,11 +41,11 @@ const EVJFEVG = () => {
             <div id="carDiv">
                 <Carousel carousel={resumeData.EVJFCarousel} />
             </div>
-          {/* <Link to="/contact">
+          <Link to="/contact">
             <div className="evenCarousel">
-              <button className="contactButton">Contactez-nous</button>
+              <button className="contactButton">Obtenir un devis</button>
             </div>
-          </Link> */}
+          </Link>
         </Col>
       </div>
     </div>

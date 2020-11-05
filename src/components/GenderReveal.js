@@ -3,6 +3,7 @@ import "./evenementiel.css";
 import { Col , Row } from "reactstrap";
 import Carousel from "./Carousel";
 import resumeData from "../assets/resumeData";
+import { Link } from "react-router-dom";
 const Birthday = () => {
   return (
     <div className="about">
@@ -39,11 +40,11 @@ const Birthday = () => {
             <div id="carDiv">
                 <Carousel carousel={resumeData.GenderRevealCarousel} />
             </div>
-          {/* <Link to="/contact">
+          <Link to="/contact">
             <div className="evenCarousel">
-              <button className="contactButton">Contactez-nous</button>
+              <button className="contactButton">Obtenir un devis</button>
             </div>
-          </Link> */}
+          </Link>
         </Col>
       </div>
     </div>

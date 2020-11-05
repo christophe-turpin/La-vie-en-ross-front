@@ -3,6 +3,7 @@ import "./evenementiel.css";
 import { Col , Row } from "reactstrap";
 import Carousel from "./Carousel";
 import resumeData from "../assets/resumeData";
+import { Link } from "react-router-dom";
 const Birthday = () => {
   return (
     <div className="about">
@@ -17,12 +18,12 @@ const Birthday = () => {
             <div className="corner" id="left_bottom" />
             <div className="corner" id="right_top" />
             <div className="corner" id="right_bottom" />
-            <span>{resumeData.eventAuth1}</span>
             <blockquote id='quote'>
               <p>
                 <i>&ldquo;{resumeData.eventCit1} &rdquo; </i>
               </p>
             </blockquote>
+            <span>{resumeData.eventAuth1}</span>
           </div>
 		  {resumeData.temoinHBD[0].date ?
             resumeData.temoinHBD.map((item) => (
@@ -38,11 +39,11 @@ const Birthday = () => {
             <div id="carDiv">
               <Carousel carousel={resumeData.HBDCarousel} />
             </div>
-          {/* <Link to="/contact">
+          <Link to="/contact">
             <div className="evenCarousel">
-              <button className="contactButton">Contactez-nous</button>
+              <button className="contactButton">Obtenir un devis</button>
             </div>
-          </Link> */}
+          </Link>
         </Col>
       </div>
     </div>

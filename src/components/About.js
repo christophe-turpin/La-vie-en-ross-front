@@ -22,7 +22,7 @@ const About = () => {
 						<h4 className='aboutCategory'>Prestations :</h4>
 						<Link to='/mariage'><p className='prestaclick'>Mariage</p></Link>
 						<Link to='/brunch'><p className='prestaclick'>Brunch</p></Link>
-						<Link to='/evenementiel'><p className='prestaclick'>Evenementiel</p></Link>
+						<Link to='/evenementiel/anniversaire'><p className='prestaclick'>Evenementiel</p></Link>
 						<Link to='/professionnel'><p className='prestaclick'>Professionnel</p></Link>
 					</Row>
 					<Link to="/contact">

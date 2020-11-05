@@ -17,15 +17,15 @@ const Mariage = () => {
             <div className="corner" id="left_bottom"></div>
             <div className="corner" id="right_top"></div>
             <div className="corner" id="right_bottom"></div>
-            <span>{resumeData.mariageAuth}</span>
             <blockquote id="quote">
               <p>
                 <i id="iquote">&ldquo;{resumeData.mariageCit} &rdquo; </i>
               </p>
             </blockquote>
+            <span>{resumeData.mariageAuth}</span>
           </div>
           <h1 className="presentation">{resumeData.mariageh1}</h1>
-          <h2>{resumeData.mariageh2}</h2>
+          <h2 className='centeredItalic'>{resumeData.mariageh2}</h2>
 
           <h2>{resumeData.mariageWelcome}</h2>
           <h3>{resumeData.mariageEntour}</h3>
@@ -40,7 +40,7 @@ const Mariage = () => {
                         </tr> */}
                 <thead>
                   <tr>
-                    <th colSpan="3">Prestations:</th>
+                    <th colSpan="3" className='PrestationTableTh'>Prestations:</th>
                   </tr>
                 </thead>
                 <tbody>

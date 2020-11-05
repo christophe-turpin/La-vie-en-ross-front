@@ -1,16 +1,23 @@
 import React from "react";
+import { Row } from "reactstrap";
 import "./mariage.css";
 
 const PagesBientotDispo = () => {
-    return (
-            <div>
-                <blockquote id="quote">
-              <p>
-                <i id="iquote">&ldquo;Contenu bientôt disponible &rdquo; </i>
-              </p>
-            </blockquote>
-            </div>
-    );
+  return (
+    <Row id='soon'>
+      <div id="ct">
+        <div className="corner " id="left_top" />
+        <div className="corner" id="left_bottom" />
+        <div className="corner" id="right_top" />
+        <div className="corner" id="right_bottom" />
+        <blockquote id="quote">
+          <p>
+            <i>&ldquo;Contenu bientôt disponible &rdquo; </i>
+          </p>
+        </blockquote>
+      </div>
+    </Row>
+  );
 };
 
 export default PagesBientotDispo;
