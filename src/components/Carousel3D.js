@@ -3,6 +3,7 @@ import Carousel from "react-spring-3d-carousel";
 import uuidv4 from "uuid";
 import { config } from "react-spring";
 import resumeData from '../assets/resumeData'
+import './anim.css'
 
 export default function Example() {
     
@@ -45,7 +46,7 @@ export default function Example() {
 
 
     return (
-      <div style={{ width: "80%", height: "80%", margin: "0 auto" }}>
+      <div className='carousel3DDiv'>
         <Carousel
           slides={slides}
           goToSlide={goToSlide}

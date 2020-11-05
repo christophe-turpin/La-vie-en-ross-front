@@ -86,6 +86,12 @@ i.big.icons {
 	text-align: center;
 	flex-direction: column;
 }
+.carousel3DDiv {
+	width: 80%;
+	height: 80%;
+	padding: 0 auto;
+	overflow: hidden;
+}
 .waves {
 	position: relative;
 	width: 100%;
