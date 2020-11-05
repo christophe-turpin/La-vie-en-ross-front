@@ -21,11 +21,11 @@
 	display: inline-block;
 	margin-top: 25px !important;
 }
-.aboutRow {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-left: 15px;
-	max-width: 100%;
+.prestationRow {
+	display: inline;
+	justify-content: space-evenly;
+	align-items: baseline;
+	width: fit-content;
 }
 .aboutCategory {
 	text-decoration: black underline;
