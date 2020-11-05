@@ -22,7 +22,7 @@ export default function PrestaModal(props) {
       </button>
       <Modal id="Modal" isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle} charCode="Y">
-          Prestataires qui me font confiance:
+          Ils me font confiance:
         </ModalHeader>
         <ModalBody id="ModPresta">
           {resumeData.prestataires &&

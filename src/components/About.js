@@ -17,7 +17,7 @@ const About = () => {
 					{ 
 						resumeData.aboutText && resumeData.aboutText.map(item => <p className="me" key={item}>{item}</p>)
 					}
-					<p className='me'>{resumeData.aboutFinal}</p>
+					<p className='aboutFinal'>{resumeData.aboutFinal}</p>
 					<Row className='prestationRow'>
 						<h4 className='aboutCategory'>Prestations :</h4>
 						<Link to='/mariage'><p className='prestaclick'>Mariage</p></Link>
