@@ -44,7 +44,9 @@ body {
 	text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
 	font-family: AlexBrush ;
 }
-
+.Mtitle {
+	display: none;
+}
 .inner-header {
 	width: 100%;
 	min-height: 100px;
@@ -156,10 +158,18 @@ i.big.icons {
 	.job {
 		font-size: 30px;
 	}
-	.Htitle {
+	.Mtitle {
+		display: flex;
 		position: absolute;
 		top: 90px;
 		font-size: 12vw;
+		font-weight: 900;
+		color: white;
+		text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
+		font-family: AlexBrush ;
+	}
+	.Htitle {
+		display: none;
 	}
 
 	.socialmedia {
