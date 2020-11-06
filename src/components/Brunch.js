@@ -47,7 +47,7 @@ const Brunch = () => {
                   {resumeData.prestatairesBrunch &&
                     resumeData.prestatairesBrunch.map((item) => (
                       <tr>
-                        <td scope="row">{item.name}</td>
+                        <th scope="row">{item.name}</th>
                         <td>{item.thematique}</td>
                         <td>{item.tarifs}</td>
                       </tr>
