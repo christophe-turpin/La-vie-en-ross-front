@@ -12,7 +12,7 @@ body {
 	font-family: 'Raleway';
 }
 .carouselDiv {
-	width: 50vh;
+	display: none;
 }
 .item-img {
 	width: 50vh;
@@ -95,10 +95,6 @@ i.big.icons {
 	overflow: hidden;
 }
 #HCarousel {
-	width: 80%;
-	height: 80%;
-	padding: 0 auto;
-	overflow: hidden;
 	display: none;
 }
 .waves {
@@ -161,7 +157,7 @@ i.big.icons {
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 991px) {
 	.job {
 		font-size: 30px;
 	}
@@ -178,11 +174,13 @@ i.big.icons {
 	.Htitle {
 		display: none;
 	}
-	#H3DCarousel {
+	#carousel3DDiv {
 		display: none;
 	}
-	#HCarousel {
-		display: block;
+	#carouselDiv {
+		width: 80%;
+		height: 80%;
+		padding: 0 auto;
 	}
 
 	.socialmedia {
