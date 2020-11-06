@@ -20,7 +20,7 @@ const Birthday = () => {
             <div className="corner" id="right_bottom" />
             <blockquote id='GenderRevealQuote'>
               <p>
-                <i>
+                <i id='iquote'>
                   &ldquo;{resumeData.eventCit4}&rdquo;{" "}
                 </i>
               </p>

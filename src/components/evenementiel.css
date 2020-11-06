@@ -97,3 +97,12 @@ span{
   border-color: pink transparent transparent transparent;
 }
 p{padding-top:13px;font-size:18px; color:black;}
+
+@media (max-width: 991px) {
+  #iquote {
+    font-size: 3vw;
+  }
+  .mobileSpan {
+    bottom: -45px;
+  }
+}

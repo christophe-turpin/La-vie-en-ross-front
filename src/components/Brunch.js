@@ -20,11 +20,11 @@ const Brunch = () => {
             <div className="corner" id="right_bottom"></div>
             <blockquote id="brunchQuote">
               <p>
-                <i id="iquote">&ldquo;{resumeData.brunchCit[0]} &rdquo; </i>
+                <i className="brunchiquote">&ldquo;{resumeData.brunchCit[0]} &rdquo; </i>
               </p>
               <hr width='40%'/>
               <p>
-                <i id="iquote">&ldquo;{resumeData.brunchCit[1]} &rdquo; </i>
+                <i className="brunchiquote">&ldquo;{resumeData.brunchCit[1]} &rdquo; </i>
               </p>
             </blockquote>
           </div>

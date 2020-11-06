@@ -19,6 +19,7 @@ import photo17 from './images/carousel/photo17.jpg';
 import photo18 from './images/carousel/photo18.jpg';
 import logoC from './images/logo_ct_rondnoir_blanc.png';
 import logoK from './images/logoK.png'
+import logoN from './images/logoN.png'
 import AboutPic from './images/Alex1.jpeg'
 import MariagePic from './images/Alex2.jpeg'
 
@@ -356,8 +357,8 @@ let resumeData = {
     },
     {
       "name": "Nadir ABDELOUAHAB",
-      "logo": "",
-      "url": ""
+      "logo": logoN,
+      "url": "https://cv-nadir-abdelouahab.netlify.app"
     },
   ]
 }

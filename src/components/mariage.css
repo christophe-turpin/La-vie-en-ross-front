@@ -165,4 +165,8 @@ p{
     justify-content: space-around;
     align-items: stretch;
   }
+  /* page brunch */
+  .brunchiquote, #iquote {
+    font-size: 3vw;
+  }
 }

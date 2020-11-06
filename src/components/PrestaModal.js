@@ -28,8 +28,8 @@ export default function PrestaModal(props) {
           {resumeData.prestataires &&
             resumeData.prestataires.map((item) => (
                 <a href={item.website} target="blank">
-                    <img className="cardImg" src={item.logo} alt={item.name} />
-                    <p className="cardTitle">{item.name}</p>
+                    <img className="ModalcardImg" src={item.logo} alt={item.name} />
+                    <p className="ModalcardTitle">{item.name}</p>
                 </a>
             ))}
         </ModalBody>

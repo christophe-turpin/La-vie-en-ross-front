@@ -20,12 +20,12 @@ const EVJFEVG = () => {
               <div className="corner" id="right_bottom" />
               <blockquote id='quote'>
                 <p>
-                  <i>
+                  <i id='iquote'>
                     &ldquo;{resumeData.eventCit2} &rdquo;{" "}
                   </i>
                 </p>
               </blockquote>
-              <span>{resumeData.eventAuth2}</span>
+              <span className='mobileSpan'>{resumeData.eventAuth2}</span>
             </div>
           {resumeData.temoinEVJF[0].date ?
             resumeData.temoinEVJF.map((item) => (
