@@ -8,7 +8,7 @@ const AnimBorder = () => {
   const [usedTitle, setUsedTitle] = useState('ROSE');
   const [title, setTitle] = useState(usedTitle);
   const [rotate, setRotate] = useState("-");
-
+  const Width = window.innerWidth
   function txtRotate() {
     setTimeout(() => {
       if (title.length > usedTitle.length - 4 && rotate === "-") {
@@ -41,8 +41,10 @@ const AnimBorder = () => {
         <h1 className="Htitle">La Vie en {title}</h1>
         <h1 className="Mtitle">La Vie en ROSS</h1>
       </div>
+      {Width >= 991 ?
       <Carousel3D id="H3DCarousel" carousel={resumeData.carousel}/>
-      <Carousel id="HCarousel" carousel={resumeData.carousel}/>
+      :
+      <Carousel id="HCarousel" carousel={resumeData.carousel}/>}
       <div className="waveDiv">
         <svg
           className="waves"

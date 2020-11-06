@@ -11,9 +11,6 @@ body {
 	font-size: 40px;
 	font-family: 'Raleway';
 }
-.carouselDiv {
-	display: none;
-}
 .item-img {
 	width: 50vh;
 	height: 45vh;
@@ -94,9 +91,6 @@ i.big.icons {
 	padding: 0 auto;
 	overflow: hidden;
 }
-#HCarousel {
-	display: none;
-}
 .waves {
 	position: relative;
 	width: 100%;
@@ -173,14 +167,6 @@ i.big.icons {
 	}
 	.Htitle {
 		display: none;
-	}
-	#carousel3DDiv {
-		display: none;
-	}
-	#carouselDiv {
-		width: 80%;
-		height: 80%;
-		padding: 0 auto;
 	}
 
 	.socialmedia {
