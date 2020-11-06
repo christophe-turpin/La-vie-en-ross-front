@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import resumeData from "../assets/resumeData";
 import "./anim.css";
 import Carousel3D from "./Carousel3D";
+import Carousel from './Carousel'
 
 const AnimBorder = () => {
   const [usedTitle, setUsedTitle] = useState('ROSE');
@@ -40,7 +41,8 @@ const AnimBorder = () => {
         <h1 className="Htitle">La Vie en {title}</h1>
         <h1 className="Mtitle">La Vie en ROSS</h1>
       </div>
-      <Carousel3D carousel={resumeData.carousel}/>
+      <Carousel3D id="H3DCarousel" carousel={resumeData.carousel}/>
+      <Carousel id="HCarousel" carousel={resumeData.carousel}/>
       <div className="waveDiv">
         <svg
           className="waves"

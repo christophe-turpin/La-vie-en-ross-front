@@ -94,6 +94,13 @@ i.big.icons {
 	padding: 0 auto;
 	overflow: hidden;
 }
+#HCarousel {
+	width: 80%;
+	height: 80%;
+	padding: 0 auto;
+	overflow: hidden;
+	display: none;
+}
 .waves {
 	position: relative;
 	width: 100%;
@@ -170,6 +177,12 @@ i.big.icons {
 	}
 	.Htitle {
 		display: none;
+	}
+	#H3DCarousel {
+		display: none;
+	}
+	#HCarousel {
+		display: block;
 	}
 
 	.socialmedia {
