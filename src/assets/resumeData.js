@@ -172,11 +172,16 @@ let resumeData = {
       "date": "Août 2020",
       "name": "Fanny",
       "com": "Une organisatrice qui pense à tout pour rendre vos évènements aussi beaux que vous les aviez imaginés. Une confiance aveugle à cette jeune femme pétillante ! Merci d'avoir organisé le meilleur enterrement de vie de jeune fille, nous étions toutes ravies et c'était inoubliable !",
-    },{
+    },
+    {
       "date": "Août 2020",
       "name": "Marion",
       "com": "Un grand merci à toi Alex pour nous avoir soutenu et surtout encadrer pour l'enterrement de vie de jeune fille de Mélissa et surtout organiser un petit moment entre nous toutes comme on a voulu. Vivement la prochaine fois où l'on aura besoin de toi ! Organisatrice au top, je recommande les yeux fermés !",
-      
+    },
+    {
+      "date": "Octobre 2020",
+      "name": "Meli",
+      "com": "Alex est une personne pétillante, bienveillante et à l’écoute. Elle a su comprendre les envies de notre amie Meli et nos contraintes pour faire de ce moment un souvenir unique, qui restera dans nos têtes. Merci à toi ! Je recommande Alex les yeux fermés.",
     },
   ],
   "EVJFCarousel": [
@@ -231,6 +236,47 @@ let resumeData = {
   "eventCit3": "Je travaille à être heureux c'est le plus beaux des métiers",
   "eventAuth4": "",
   "eventCit4": "Boy or Girl, We « donut » know ",
+  "brunchCit": ["D’abord le brunch, puis après le mariage !", "First comes brunch, then comes marriage!"],
+  "brunchCarousel": [
+    {
+      "url":photo13
+    },
+    {
+      "url":photo14
+    },
+    {
+      "url":photo15
+    },
+    {
+      "url":photo16
+    },
+    {
+      "url":photo17
+    },
+    {
+      "url":photo18
+    },
+  ],
+  "prestatairesBrunch": [
+    {
+      "name": "Tomm'ys Event",
+      "thematique": "USA",
+      "tarifs": "",
+    },
+    {
+      "name": "Skandi&Pergo",
+      "thematique": "",
+      "tarifs": "",
+    },
+    {
+      "name": "Ley’la Traiteur",
+      "thematique": "",
+      "tarifs": "",
+    },
+  ],
+  "brunchTitle": "Quel meilleur moyen de finir un week-end festif, en famille et entre amis, qu’un brunch ?",
+  "brunchCentered": "Vous n’avez qu’à mettre les pieds sous la table et déguster !",
+  "brunchText": "La Vie en ROSS et ses partenaires sont là pour vous concocter un brunch sur mesure. Avec ou sans service sur place, nous nous adaptons à vos envies mais surtout à votre état post-mariage !!",
   "carousel":[
     {
       "url":photo1

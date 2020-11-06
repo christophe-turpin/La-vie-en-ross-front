@@ -11,7 +11,7 @@ body{
   align-items: center;
   position:relative;
   color:#fff;
-  padding:10px;
+  padding:35px;
   margin: 0 auto;
 }
 #quote {
@@ -135,6 +135,28 @@ p{
 }
 .themeDescRow, .themeTitle {
   width: fit-content;
+}
+
+/* page brunch */
+
+#brunchQuote {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  bottom: -8px;
+}
+.brunchContent {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#brunchPrices {
+  margin-top: 30px;
+  width: 30vw !important;
 }
 
 @media (max-width: 991px){

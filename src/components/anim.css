@@ -38,7 +38,7 @@ body {
 	padding-top: 90px;
 }
 .Htitle {
-	font-size: 60px;
+	font-size: 5vw;
 	font-weight: 900;
 	color: white;
 	text-shadow: -1px 0 rgb(218, 119, 193), 0 1px rgb(218, 119, 193), 1px 0 rgb(218, 119, 193), 0 -1px rgb(218, 119, 193);
@@ -152,13 +152,14 @@ i.big.icons {
 	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
 	.job {
 		font-size: 30px;
 	}
 	.Htitle {
 		position: absolute;
 		top: 90px;
+		font-size: 12vw;
 	}
 
 	.socialmedia {
