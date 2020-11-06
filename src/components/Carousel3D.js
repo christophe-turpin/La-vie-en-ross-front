@@ -34,7 +34,7 @@ export default function Example(props) {
   useEffect(() => {
     carouselIndex();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [goToSlide]);
+  }, [carousel]);
 
   // useEffect(()=> {
   //     resumeData.carousel.map(item => carousel.push({
