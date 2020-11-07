@@ -85,9 +85,6 @@ button:hover {
 	width: 5vw;
 	margin: 5px
 }
-.modal-content {
-	width: 50vw !important;
-}
 .prestaclick, Link {
 	margin: 7px;
 	width: fit-content;
