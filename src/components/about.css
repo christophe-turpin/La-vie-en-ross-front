@@ -77,6 +77,17 @@ button:hover {
 	text-align: center;
 	font-style: italic;
 }
+#degreeRow {
+	display: flex;
+	justify-content: space-around;
+}
+.degreeDiv{
+	width: 5vw;
+	margin: 5px
+}
+.modal-content {
+	width: 50vw !important;
+}
 .prestaclick, Link {
 	margin: 7px;
 	width: fit-content;

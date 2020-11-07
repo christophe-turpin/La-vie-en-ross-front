@@ -38,7 +38,7 @@ span{
 .tableButton {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   padding-right: 10%;
 }
 .corner{height:30px;

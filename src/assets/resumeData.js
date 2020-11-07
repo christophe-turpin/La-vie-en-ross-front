@@ -22,6 +22,8 @@ import logoK from './images/logoK.png'
 import logoN from './images/logoN.png'
 import AboutPic from './images/Alex1.jpeg'
 import MariagePic from './images/Alex2.jpeg'
+import diplome1 from './images/weddingPlanner.png'
+import diplome2 from './images/weddingDesigner.png'
 
 
 let resumeData = {
@@ -50,8 +52,20 @@ let resumeData = {
   ],
   "aboutPic": AboutPic,
   "aboutTitle": "A défaut de voir La Vie en Rose, voyez La Vie en ROSS!", 
-  "aboutText":["Mon parcours professionnel se repose sur l’amour de mes passions.", "La Première : l’hôtellerie-restauration, ma famille ayant des hôtels-restaurant à Madagascar, mon pays natal, j’ai ça dans le sang ! Passionnée depuis mon plus jeune âge j’y consacre mes études ainsi que mes premiers jobs.", "A travers l’hôtellerie-restauration, je développe ma seconde passion : l’organisation événementielle. Le contact clientèle est quelque chose qui me fait lever le matin ! Mes collègues disaient de moi : « Amoureuse du travail bien fait et des relations clientèles, connaître parfaitement ses clients et les satisfaire répondaient à ses objectifs. ».", "Être Wedding-Planner est le but d’une vie me permettant de travailler pour moi et vivre de ma passion, qui a été confirmée par une formation de Wedding Planner & Wedding Designer en Mai 2020 (Petites miniatures de mes diplômes).", "Si vous êtes amené à me rencontrer vous découvrirez une amoureuse de l’amour qui souhaite faire vivre à ses clients le temps d’une journée et soirée leur « fairytale » avec comme fil conducteur leur propre histoire d’amour."],
+  "aboutText1":["Mon parcours professionnel se repose sur l’amour de mes passions.", "La Première : l’hôtellerie-restauration, ma famille ayant des hôtels-restaurant à Madagascar, mon pays natal, j’ai ça dans le sang ! Passionnée depuis mon plus jeune âge j’y consacre mes études ainsi que mes premiers jobs.", "A travers l’hôtellerie-restauration, je développe ma seconde passion : l’organisation événementielle. Le contact clientèle est quelque chose qui me fait lever le matin ! Mes collègues disaient de moi : « Amoureuse du travail bien fait et des relations clientèles, connaître parfaitement ses clients et les satisfaire répondaient à ses objectifs. ».",],
+  "aboutText2": "Être Wedding-Planner est le but d’une vie me permettant de travailler pour moi et vivre de ma passion, qui a été confirmée par une formation de Wedding Planner & Wedding Designer en Mai 2020.", 
+  "aboutText3": "Si vous êtes amené à me rencontrer vous découvrirez une amoureuse de l’amour qui souhaite faire vivre à ses clients le temps d’une journée et soirée leur « fairytale » avec comme fil conducteur leur propre histoire d’amour.",
   "aboutFinal": 'Alors venez vivre l\'expérience "La vie en Ross" pour votre Jour-J qui sera sans aucun doute le plus beau jour de votre vie !',
+  "weddingDegree": [
+    {
+      "degreeName": "Wedding Planner",
+      "degreeImage": diplome1,
+    },
+    {
+      "degreeName": "Wedding Designer",
+      "degreeImage": diplome2,
+    }
+  ],
   "mariagePic": MariagePic,
   "mariageAuth": "Joseph Lallier",
   "mariageCit": "Quand on aime le jour de son mariage on aime pour la vie !",
@@ -75,6 +89,10 @@ let resumeData = {
     {
       "title": "Mariage qui voyage",
       "description": ["Vous êtes des futurs mariés globe-trotter qui s’inspirent de leurs différents voyagent, d’une culture en particulier ou un pays en particulier ?", "Laissez-moi voyage à travers vos récits et créer le mariage exotique de votre vie."]
+    },
+    {
+      "title": "Mariage USA",
+      "description": ["On sait à quel point les États-Unis font rêver à travers le monde entier, avec leurs buildings beaucoup trop grands, leurs burgers beaucoup trop gros, et leur extravagance !!", "On les juge, mais on les aime tout autant, alors pourquoi ne pas faire de votre Jour-J un jour d’extravagance à l’américaine ?!  Le temps d’une journée et soirée faire voyager vos invités et vous-même au-delà de l’Atlantique.", "Que vous soyez amateurs des États-Unis ou alors que vous rêvez d’avoir Elvis Presley en chair et en os chantant à votre mariage, c’est le moment de passer le cap !", "Vous connaissez sûrement le Tommy’s ? Grande institution dans le monde de la restauration à Toulouse/Labège avec sa « touch states ».", "Fondé par un passionné des États-Unis, ancien rugbyman, nous associons nos deux entreprises ainsi que nos contacts chacun de notre côté pour vous trouver la meilleure décoration, les meilleurs personnages, et la meilleure nourriture vous plongeant dans l’U.S ambiance !"]
     },
   ],
   "mariageMesure": {
@@ -121,6 +139,11 @@ let resumeData = {
       "name": "La Merveille des eaux",
       "website": "https://www.lamerveilledeseaux.com",
       "logo": "https://static.wixstatic.com/media/8945a4_675261b07b6948b6a9653032c07be738~mv2.png/v1/crop/x_0,y_4,w_425,h_262/fill/w_370,h_228,al_c,q_85,usm_0.66_1.00_0.01/La%20Merveille%20des%20eaux%20magiques.webp",
+    },
+    {
+      "name": "Tommy's",
+      "website": "",
+      "logo": "",
     },
   ],
   "prestations": [

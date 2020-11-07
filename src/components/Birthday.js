@@ -30,7 +30,7 @@ const Birthday = () => {
               <div className="comItem">
                 <Row className="comRow">
                   <h4 className="info">
-                    {item.date} par {item.name} :
+                  {item.name}, Anniversaire {item.date} :
                   </h4>
                   <p className="com">"{item.com}"</p>
                 </Row>
