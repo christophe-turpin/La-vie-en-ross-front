@@ -1,4 +1,8 @@
-body{background:white;}
+body{
+  background:white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .evenCarousel{
 	display: flex;
 	justify-content: center;
@@ -50,6 +54,7 @@ span{
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .corner{height:30px;
   width:30px;

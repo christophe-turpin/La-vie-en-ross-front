@@ -40,7 +40,7 @@ const Footer = () => {
         <PrestaModal buttonLabel='Voir les prestataires' />
     </Col>
       <Col lg="3" md="8" className="devContent">
-        <h4 className="devTitle">Ce site a été crée par :</h4>
+        <h4 className="devTitle">Ce site a été créé par :</h4>
         <div className="devResponse">
           {resumeData.devs &&
             resumeData.devs.map((item) => (

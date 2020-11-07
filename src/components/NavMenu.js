@@ -59,7 +59,7 @@ const NavMenu = () => {
 					inNavbar
 					>
 						<DropdownToggle nav caret>
-							<NavLink to='#' exact activeClassName="navbar__link--active" className="navbar__link" offset='100' href="#about">Evenementiel</NavLink>
+							<NavLink to='/evenementiel/anniversaire' exact activeClassName="navbar__link--active" className="navbar__link" offset='100' >Evenementiel</NavLink>
 						</DropdownToggle>
 						<DropdownMenu right>
 							<DropdownItem>
