@@ -100,9 +100,9 @@ p{padding-top:13px;font-size:18px; color:black;}
 
 @media (max-width: 991px) {
   #iquote {
-    font-size: 3vw;
+    font-size: 3vw !important;
   }
   .mobileSpan {
-    bottom: -45px;
+    bottom: -45px !important;
   }
 }

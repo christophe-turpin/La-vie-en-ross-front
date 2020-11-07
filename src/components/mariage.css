@@ -167,6 +167,6 @@ p{
   }
   /* page brunch */
   .brunchiquote, #iquote {
-    font-size: 3vw;
+    font-size: 3vw !important;
   }
 }
