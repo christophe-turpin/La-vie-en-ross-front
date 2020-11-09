@@ -38,8 +38,8 @@ const AnimBorder = () => {
   return (
     <div className="header">
       <div className="inner-header flex">
-        <h1 className="Htitle">La Vie en {title}</h1>
-        <h1 className="Mtitle">La Vie en ROSS</h1>
+        <h1 className="Mtitle">{title}</h1>
+        <h1 className="Htitle">La Vie en</h1>
       </div>
       {Width >= 991 ?
       <Carousel3D id="H3DCarousel" carousel={resumeData.carousel}/>

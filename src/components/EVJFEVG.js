@@ -32,7 +32,7 @@ const EVJFEVG = () => {
               <div className="comItem">
                 <Row className="comRow">
                   <h4 className="info">
-                  {item.name}, Enterrement de vie de jeune fille {item.date} :
+                  {item.name}, EVJF {item.date} :
                   </h4>
                   <p className="com">"{item.com}"</p>
                 </Row>

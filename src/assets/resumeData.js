@@ -24,6 +24,7 @@ import AboutPic from './images/Alex1.jpeg'
 import MariagePic from './images/Alex2.jpeg'
 import diplome1 from './images/weddingPlanner.png'
 import diplome2 from './images/weddingDesigner.png'
+import Tommys from './images/logo_Tommy.png'
 
 
 let resumeData = {
@@ -55,7 +56,7 @@ let resumeData = {
   "aboutText1":["Mon parcours professionnel se repose sur l’amour de mes passions.", "La Première : l’hôtellerie-restauration, ma famille ayant des hôtels-restaurant à Madagascar, mon pays natal, j’ai ça dans le sang ! Passionnée depuis mon plus jeune âge j’y consacre mes études ainsi que mes premiers jobs.", "A travers l’hôtellerie-restauration, je développe ma seconde passion : l’organisation événementielle. Le contact clientèle est quelque chose qui me fait lever le matin ! Mes collègues disaient de moi : « Amoureuse du travail bien fait et des relations clientèles, connaître parfaitement ses clients et les satisfaire répondaient à ses objectifs. ».",],
   "aboutText2": "Être Wedding-Planner est le but d’une vie me permettant de travailler pour moi et vivre de ma passion, qui a été confirmée par une formation de Wedding Planner & Wedding Designer en Mai 2020.", 
   "aboutText3": "Si vous êtes amené à me rencontrer vous découvrirez une amoureuse de l’amour qui souhaite faire vivre à ses clients le temps d’une journée et soirée leur « fairytale » avec comme fil conducteur leur propre histoire d’amour.",
-  "aboutFinal": 'Alors venez vivre l\'expérience "La vie en Ross" pour votre Jour-J qui sera sans aucun doute le plus beau jour de votre vie !',
+  "aboutFinal": 'Alors venez vivre l\'expérience "La Vie en Ross" pour votre Jour-J qui sera sans aucun doute le plus beau jour de votre vie !',
   "weddingDegree": [
     {
       "degreeName": "Wedding Planner",
@@ -142,8 +143,8 @@ let resumeData = {
     },
     {
       "name": "Tommy's",
-      "website": "",
-      "logo": "",
+      "website": "https://www.tommys-events.com/",
+      "logo": Tommys,
     },
   ],
   "prestations": [
