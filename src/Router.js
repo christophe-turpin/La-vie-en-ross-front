@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Navmenu from './components/NavMenu'
 import AnimBorder from './components/AnimBorder'
 import Contact from './components/Contact';
@@ -21,7 +21,6 @@ const Router = () => {
 			<Navmenu/>
 			<AnimBorder />
 			<Switch>
-			<Redirect to="/"/> 
 				<Route exact path="/" component={About} />
 				<Route exact path="/mariage" component={Mariage} />
 				<Route path="/mariage/themes" component={MariageThemes} />
