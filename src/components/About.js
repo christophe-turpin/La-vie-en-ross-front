@@ -12,8 +12,8 @@ import resumeData from "../assets/resumeData";
 import { Link } from "react-router-dom";
 
 const About = () => {
-	const [modal, setModal] = useState(false);
-	const toggle = () => setModal(!modal);
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
   return (
     <div className="about">
       <div className="columns">
@@ -23,6 +23,7 @@ const About = () => {
         <Col lg="8" md="9">
           <h1 className="presentation">
             {resumeData.name} - {resumeData.role}
+            {/* <img className="LogoNuage" src={resumeData.logo} alt="logoNuage" /> */}
           </h1>
           <h3 className="soutitle">{resumeData.aboutTitle}</h3>
           {resumeData.aboutText1 &&
@@ -32,27 +33,36 @@ const About = () => {
               </p>
             ))}
           <p className="me">{resumeData.aboutText2}</p>
-		  <Row id='degreeRow'>
-          {resumeData.weddingDegree &&
-            resumeData.weddingDegree.map((item) => (
-				<div className='degreeDiv'>
-				<img src={item.degreeImage} alt={item.degreeName} width='50px' onClick={toggle}/>
-              <Modal id="Modal" isOpen={modal} toggle={toggle}>
-                <ModalHeader toggle={toggle} charCode="Y">
-                  {item.degreeName}
-                </ModalHeader>
-                <ModalBody id="ModPresta">
-					<img src={item.degreeImage} alt={item.degreeName} width='100%' />
-                </ModalBody>
-                <ModalFooter>
-                  <button className="contactButton" onClick={toggle}>
-                    Fermer
-                  </button>
-                </ModalFooter>
-              </Modal>
-			  </div>
-            ))}
-			</Row>
+          <Row id="degreeRow">
+            {resumeData.weddingDegree &&
+              resumeData.weddingDegree.map((item) => (
+                <div className="degreeDiv" key={item.degreeImage}>
+                  <img
+                    src={item.degreeImage}
+                    alt={item.degreeName}
+                    width="50px"
+                    onClick={toggle}
+                  />
+                  <Modal id="Modal" isOpen={modal} toggle={toggle}>
+                    <ModalHeader toggle={toggle} charCode="Y">
+                      {item.degreeName}
+                    </ModalHeader>
+                    <ModalBody id="ModPresta">
+                      <img
+                        src={item.degreeImage}
+                        alt={item.degreeName}
+                        width="100%"
+                      />
+                    </ModalBody>
+                    <ModalFooter>
+                      <button className="contactButton" onClick={toggle}>
+                        Fermer
+                      </button>
+                    </ModalFooter>
+                  </Modal>
+                </div>
+              ))}
+          </Row>
           <p className="me">{resumeData.aboutText3}</p>
           <p className="aboutFinal">{resumeData.aboutFinal}</p>
           <Row className="prestationRow">

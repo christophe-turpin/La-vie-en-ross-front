@@ -1,6 +1,6 @@
 import React from "react";
 import "./evenementiel.css";
-import { Col , Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import Carousel from "./Carousel";
 import resumeData from "../assets/resumeData";
 import { Link } from "react-router-dom";
@@ -18,29 +18,30 @@ const Birthday = () => {
             <div className="corner" id="left_bottom" />
             <div className="corner" id="right_top" />
             <div className="corner" id="right_bottom" />
-            <blockquote id='GenderRevealQuote'>
+            <blockquote id="GenderRevealQuote">
               <p>
-                <i id='iquote'>
-                  &ldquo;{resumeData.eventCit4}&rdquo;{" "}
-                </i>
+                <i id="iquote">&ldquo;{resumeData.eventCit4}&rdquo; </i>
               </p>
             </blockquote>
           </div>
-		  {resumeData.temoinGenderReveal[0].date ?
+          {resumeData.temoinGenderReveal[0].date ? (
             resumeData.temoinGenderReveal.map((item) => (
-              <div className="comItem">
+              <div className="comItem" key={item.name}>
                 <Row className="comRow">
                   <h4 className="info">
-                  {item.name}, Gender Reveal {item.date} :
+                    {item.name}, Gender Reveal {item.date} :
                   </h4>
                   <p className="com">"{item.com}"</p>
                 </Row>
               </div>
-            )): <p>Pas de témoignage pour le moment</p>}
-            <div id="carDiv">
-                <Carousel carousel={resumeData.GenderRevealCarousel} />
-            </div>
-          <Link className='prestaclick' to="/contact">
+            ))
+          ) : (
+            <p>Pas de témoignage pour le moment</p>
+          )}
+          <div id="carDiv">
+            <Carousel carousel={resumeData.GenderRevealCarousel} />
+          </div>
+          <Link className="prestaclick" to="/contact">
             <div className="evenCarousel">
               <button className="contactButton">Obtenir un devis</button>
             </div>

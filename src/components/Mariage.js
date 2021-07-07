@@ -25,7 +25,7 @@ const Mariage = () => {
             <span>{resumeData.mariageAuth}</span>
           </div>
           <h1 className="presentation">{resumeData.mariageh1}</h1>
-          <h2 className='centeredItalic'>{resumeData.mariageh2}</h2>
+          <h2 className="centeredItalic">{resumeData.mariageh2}</h2>
           <h2>{resumeData.mariageWelcome}</h2>
           <h3>{resumeData.mariageEntour}</h3>
           <div className="tableButton">
@@ -39,13 +39,15 @@ const Mariage = () => {
                         </tr> */}
                 <thead>
                   <tr>
-                    <th colSpan="3" className='PrestationTableTh'>Prestations:</th>
+                    <th colSpan="3" className="PrestationTableTh">
+                      Prestations:
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   {resumeData.prestations &&
                     resumeData.prestations.map((item) => (
-                      <tr>
+                      <tr key={item.name}>
                         <th scope="row">{item.name}</th>
                         <td>{item.describe}</td>
                         <td>{item.price}</td>
@@ -55,7 +57,7 @@ const Mariage = () => {
               </Table>
             </div>
             <div>
-              <Link className='prestaclick' to="/contact">
+              <Link className="prestaclick" to="/contact">
                 <div className="evenCarousel">
                   <button className="contactButton">Obtenir un devis</button>
                 </div>

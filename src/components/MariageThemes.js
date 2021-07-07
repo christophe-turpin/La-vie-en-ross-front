@@ -14,28 +14,30 @@ export default function MariageThemes() {
         <Col className="themes" lg="12" md="12">
           {resumeData.mariageTheme &&
             resumeData.mariageTheme.map((item) => (
-              <div className="themeItem">
+              <div className="themeItem" key={item.title}>
                 <h2 className="themeTitle">{item.title}</h2>
                 {item.description &&
                   item.description.map((phrase) => (
-                    <Row className="themeDescRow">
+                    <Row className="themeDescRow" key={item.title}>
                       <p className="desc">{phrase}</p>
                     </Row>
                   ))}
-                <Link className='prestaclick' to="/contact">
+                <Link className="prestaclick" to="/contact">
                   <div className="evenCarousel">
                     <button className="contactButton">Obtenir un devis</button>
                   </div>
                 </Link>
               </div>
             ))}
-            <div className="themeItem">
-                <h2 className="themeTitle">{resumeData.mariageMesure.title}</h2>
-                    <Row>
-                      <p className="desc">{resumeData.mariageMesure.description}</p>
-                    </Row>
-                <Link className='prestaclick' to="/questionnaire"><p className='prestaclick'>Questionnaire</p></Link>
-              </div>
+          <div className="themeItem">
+            <h2 className="themeTitle">{resumeData.mariageMesure.title}</h2>
+            <Row>
+              <p className="desc">{resumeData.mariageMesure.description}</p>
+            </Row>
+            <Link className="prestaclick" to="/questionnaire">
+              <p className="prestaclick">Questionnaire</p>
+            </Link>
+          </div>
         </Col>
       </div>
     </div>
