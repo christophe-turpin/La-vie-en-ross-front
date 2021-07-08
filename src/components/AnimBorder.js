@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import resumeData from "../assets/resumeData";
 import "./anim.css";
 import Carousel3D from "./Carousel3D";
 import Carousel from "./Carousel";
 
 const AnimBorder = () => {
-  const [usedTitle, setUsedTitle] = useState("ROSE");
-  const [title, setTitle] = useState(usedTitle);
-  const [rotate, setRotate] = useState("-");
+  // const [usedTitle, setUsedTitle] = useState("ROSE");
+  // const [title, setTitle] = useState(usedTitle);
+  // const [rotate, setRotate] = useState("-");
   const Width = window.innerWidth;
   // function txtRotate() {
   //   setTimeout(() => {
