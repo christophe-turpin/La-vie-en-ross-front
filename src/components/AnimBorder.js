@@ -9,29 +9,29 @@ const AnimBorder = () => {
   const [title, setTitle] = useState(usedTitle);
   const [rotate, setRotate] = useState("-");
   const Width = window.innerWidth;
-  function txtRotate() {
-    setTimeout(() => {
-      if (title.length > usedTitle.length - 4 && rotate === "-") {
-        setTitle(title.substr(0, title.length - 1));
-      } else if (title.length === usedTitle.length - 4) {
-        usedTitle === "ROSE" ? setUsedTitle("ROSS") : setUsedTitle("ROSE");
-        setRotate("+");
-        setTitle(usedTitle.substr(0, title.length + 1));
-      } else if (title.length < usedTitle.length && rotate === "+") {
-        setTitle(usedTitle.substr(0, title.length + 1));
-      } else if (title.length === usedTitle.length) {
-        setTimeout(() => {
-          setRotate("-");
-          setTitle(title.substr(0, title.length - 1));
-        }, 1000);
-      }
-    }, 200);
-  }
+  // function txtRotate() {
+  //   setTimeout(() => {
+  //     if (title.length > usedTitle.length - 4 && rotate === "-") {
+  //       setTitle(title.substr(0, title.length - 1));
+  //     } else if (title.length === usedTitle.length - 4) {
+  //       usedTitle === "ROSE" ? setUsedTitle("ROSS") : setUsedTitle("ROSE");
+  //       setRotate("+");
+  //       setTitle(usedTitle.substr(0, title.length + 1));
+  //     } else if (title.length < usedTitle.length && rotate === "+") {
+  //       setTitle(usedTitle.substr(0, title.length + 1));
+  //     } else if (title.length === usedTitle.length) {
+  //       setTimeout(() => {
+  //         setRotate("-");
+  //         setTitle(title.substr(0, title.length - 1));
+  //       }, 1000);
+  //     }
+  //   }, 200);
+  // }
 
-  useEffect(() => {
-    txtRotate();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title]);
+  // useEffect(() => {
+  //   txtRotate();
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [title]);
 
   return (
     <div className="header">
