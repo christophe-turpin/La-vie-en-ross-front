@@ -29,10 +29,10 @@ const NavMenu = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <Navbar className={navbar ? "navbar active" : "navbar"} expand="md">
+    <Navbar className={navbar ? "navbar active" : "navbar"} expand="lg">
       <NavbarToggler id="NBToggler" onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="mr-auto" navbar>
+        <Nav className={`mr-auto ${isOpen}`} navbar>
           <NavItem>
             <NavLink
               onClick={toggle}

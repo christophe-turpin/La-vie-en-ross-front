@@ -26,6 +26,9 @@ import diplome1 from "./images/weddingPlanner.png";
 import diplome2 from "./images/weddingDesigner.png";
 import Tommys from "./images/logo_Tommy.png";
 import LogoAlex from "./images/logoAlex.png";
+import LogoLeyla from "./images/logoLeyla.png";
+import logoLorentz from "./images/logoLorentz.png";
+import logoStJo from "./images/logoStJo.png";
 
 let resumeData = {
   imagebaseurl: rose,
@@ -139,17 +142,17 @@ let resumeData = {
     {
       name: "Leyla Traiteur / Pâtissier",
       website: "https://www.leyla-traiteurpatissier.fr",
-      logo: "https://image.jimcdn.com/app/cms/image/transf/dimension=153x10000:format=jpg/path/sd1d5d3f718866b28/image/i9cb13aaecda8ed8e/version/1578483299/image.jpg",
+      logo: LogoLeyla,
     },
     {
       name: "Lorentz Pâtissier / Traiteur",
       website: "https://www.patisserie-toulouse.com",
-      logo: "https://www.patisserie-toulouse.com/wp-content/uploads/2017/07/logo.png",
+      logo: logoLorentz,
     },
     {
       name: "Château Saint Joseph",
       website: "https://chateau-saint-joseph.com",
-      logo: "https://chateau-saint-joseph.com/wp-content/uploads/2020/07/logo-st-joseph-alt.png",
+      logo: logoStJo,
     },
     {
       name: "Hôtel Albert 1er",

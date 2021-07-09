@@ -2,13 +2,15 @@ import React from "react";
 import resumeData from "../assets/resumeData";
 import "./anim.css";
 import Carousel3D from "./Carousel3D";
-import Carousel from "./Carousel";
+// import Carousel from "./Carousel";
+// import { useState } from "react";
+// import { useEffect } from "react";
 
 const AnimBorder = () => {
   // const [usedTitle, setUsedTitle] = useState("ROSE");
   // const [title, setTitle] = useState(usedTitle);
   // const [rotate, setRotate] = useState("-");
-  const Width = window.innerWidth;
+  // const [Width, setWidth] = useState(window.innerWidth);
   // function txtRotate() {
   //   setTimeout(() => {
   //     if (title.length > usedTitle.length - 4 && rotate === "-") {
@@ -30,8 +32,8 @@ const AnimBorder = () => {
 
   // useEffect(() => {
   //   txtRotate();
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [title]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [window.innerWidth]);
 
   return (
     <div className="header">
@@ -40,11 +42,11 @@ const AnimBorder = () => {
         <h1 className="Htitle">La Vie en</h1> */}
         <img className="LogoNuage" src={resumeData.logo} alt="logoNuage" />
       </div>
-      {Width >= 991 ? (
-        <Carousel3D id="H3DCarousel" carousel={resumeData.carousel} />
-      ) : (
+      {/* {Width >= 991 ? ( */}
+      <Carousel3D id="H3DCarousel" carousel={resumeData.carousel} />
+      {/* ) : (
         <Carousel id="HCarousel" carousel={resumeData.carousel} />
-      )}
+      )} */}
       <div className="waveDiv">
         <svg
           className="waves"

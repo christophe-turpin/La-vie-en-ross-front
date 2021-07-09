@@ -48,7 +48,7 @@
     max-height: 50%;
 }
 .cardImg{
-    background-color: black;
+    background-color: rgb(220, 155, 203)
 }
 .card-body {
     padding: 0px !important;
