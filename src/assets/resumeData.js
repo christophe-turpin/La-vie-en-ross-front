@@ -29,6 +29,11 @@ import LogoAlex from "./images/logoAlex.png";
 import LogoLeyla from "./images/logoLeyla.png";
 import logoLorentz from "./images/logoLorentz.png";
 import logoStJo from "./images/logoStJo.png";
+import logoAlbert1 from "./images/logoAlbert1.jpg";
+import logoGHO from "./images/logoGHO.png";
+import logoPHV from "./images/logoPHV.png";
+import logo3caves from "./images/logo3caves.png";
+import logoMerveilleDEaux from "./images/logoMerveilleDEaux.webp";
 
 let resumeData = {
   imagebaseurl: rose,
@@ -157,27 +162,27 @@ let resumeData = {
     {
       name: "Hôtel Albert 1er",
       website: "https://www.hotel-albert1.com",
-      logo: "https://www.hotel-albert1.com/wp-content/uploads/2018/09/logo.jpg",
+      logo: logoAlbert1,
     },
     {
       name: "Grand Hôtel d’Orléans",
       website: "https://www.grand-hotel-orleans.fr",
-      logo: "https://d1vp8nomjxwyf1.cloudfront.net/wp-content/uploads/sites/383/2018/05/23103355/grand-hotel-orleans-toulouse.png",
+      logo: logoGHO,
     },
     {
       name: "Photobooth Vintage",
       website: "https://www.photoboothvintage.fr",
-      logo: "https://photoboothvintage.mystagingwebsite.com/wp-content/uploads/2015/03/Logo3-150px-toppadding.png",
+      logo: logoPHV,
     },
     {
       name: "Les 3 Caves Rive Gauche",
       website: "https://www.les3caves-rivegauche.fr",
-      logo: "https://www.les3caves-rivegauche.fr/wp-content/themes/mstheme-child/images/logo.png",
+      logo: logo3caves,
     },
     {
       name: "La Merveille des eaux",
       website: "https://www.lamerveilledeseaux.com",
-      logo: "https://static.wixstatic.com/media/8945a4_675261b07b6948b6a9653032c07be738~mv2.png/v1/crop/x_0,y_4,w_425,h_262/fill/w_370,h_228,al_c,q_85,usm_0.66_1.00_0.01/La%20Merveille%20des%20eaux%20magiques.webp",
+      logo: logoMerveilleDEaux,
     },
     {
       name: "Tommy's",
@@ -419,14 +424,19 @@ let resumeData = {
       url: "https://cv-christophe-turpin.netlify.app",
     },
     {
-      name: "Kenny PHIRI",
+      name: "Nadir ABDELOUAHAB",
+      logo: logoN,
+      url: "https://cv-nadir-abdelouahab.netlify.app",
+    },
+    {
+      name: "David RUBEN",
       logo: logoK,
       url: "https://phiri-kenny.netlify.app",
     },
     {
-      name: "Nadir ABDELOUAHAB",
-      logo: logoN,
-      url: "https://cv-nadir-abdelouahab.netlify.app",
+      name: "Kenny PHIRI",
+      logo: logoK,
+      url: "https://phiri-kenny.netlify.app",
     },
   ],
 };

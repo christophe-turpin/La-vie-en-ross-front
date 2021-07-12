@@ -7,7 +7,7 @@ import PrestaModal from "./PrestaModal";
 const Footer = () => {
   return (
     <div className="footer">
-      <Col id="prestDiv" lg="9">
+      <Col id="prestDiv" lg="8">
         <p>Ils me font confiance:</p>
         <div id="presta">
           {resumeData.prestataires &&
@@ -39,7 +39,7 @@ const Footer = () => {
       <Col id="mobilePresta" md="3">
         <PrestaModal buttonLabel="Voir les prestataires" />
       </Col>
-      <Col lg="3" md="8" className="devContent">
+      <Col lg="4" md="8" className="devContent">
         <h4 className="devTitle">Ce site a été créé par :</h4>
         <div className="devResponse">
           {resumeData.devs &&
