@@ -25,8 +25,16 @@
     width: fit-content;
     display: flex;
     flex-flow: row nowrap;
+    width: 80%;
     justify-content: space-evenly;
+    align-items: center;
     margin: 0px;
+    /* background-color: rgb(249, 228, 183); */
+    background-image: url('../assets/images/logoAlex.png');
+    background-size: 200%;
+    background-position: 50% 27% ;
+    border-radius: 50px;
+
 }
 #presta a {
     color: black;
@@ -38,7 +46,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 5vw;
-    height: 150px;
     background: transparent !important;
     border: 0ch !important;
 }
@@ -47,9 +54,9 @@
     padding-right: 1vw;
     max-height: 50%;
 }
-.cardImg{
+/* .cardImg{
     background-color: rgb(220, 155, 203)
-}
+} */
 .card-body {
     padding: 0px !important;
     width: 100%;
