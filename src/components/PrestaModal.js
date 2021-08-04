@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-} from "reactstrap";
+import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import resumeData from "../assets/resumeData";
 import "./PrestaModal.css";
 
@@ -27,10 +22,10 @@ export default function PrestaModal(props) {
         <ModalBody id="ModPresta">
           {resumeData.prestataires &&
             resumeData.prestataires.map((item) => (
-                <a href={item.website} target="blank">
-                    <img className="ModalcardImg" src={item.logo} alt={item.name} />
-                    <p className="ModalcardTitle">{item.name}</p>
-                </a>
+              <a href={item.website} target="blank" key={item.website}>
+                <img className="ModalcardImg" src={item.logo} alt={item.name} />
+                <p className="ModalcardTitle">{item.name}</p>
+              </a>
             ))}
         </ModalBody>
         <ModalFooter>

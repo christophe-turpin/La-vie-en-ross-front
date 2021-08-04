@@ -13,6 +13,7 @@
 	margin-top: 20px;
 	justify-content: flex-end;
 }
+
 .presentation {
 	font-family: 'Raleway';
 	text-align: left !important;
@@ -72,6 +73,8 @@ button:hover {
 	text-align: justify;
 	width: 90%;
 	margin-right: 0px !important;
+	/* color:white ; mix-blend-mode: difference;  */
+	/* font-weight:bold; */
 }
 .aboutFinal {
 	text-align: center;

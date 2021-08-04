@@ -1,50 +1,52 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import resumeData from "../assets/resumeData";
 import "./anim.css";
 import Carousel3D from "./Carousel3D";
-import Carousel from './Carousel'
+// import Carousel from "./Carousel";
+// import { useState } from "react";
+// import { useEffect } from "react";
 
 const AnimBorder = () => {
-  const [usedTitle, setUsedTitle] = useState('ROSE');
-  const [title, setTitle] = useState(usedTitle);
-  const [rotate, setRotate] = useState("-");
-  const Width = window.innerWidth
-  function txtRotate() {
-    setTimeout(() => {
-      if (title.length > usedTitle.length - 4 && rotate === "-") {
-        setTitle(title.substr(0, title.length - 1));
-      } else if (title.length === usedTitle.length - 4) {
-        usedTitle === 'ROSE'
-          ? setUsedTitle('ROSS')
-          : setUsedTitle('ROSE');
-        setRotate("+");
-        setTitle(usedTitle.substr(0, title.length + 1));
-      } else if (title.length < usedTitle.length && rotate === "+") {
-        setTitle(usedTitle.substr(0, title.length + 1));
-      } else if (title.length === usedTitle.length) {
-        setTimeout(()=>{
-          setRotate("-");
-          setTitle(title.substr(0, title.length - 1));
-        }, 1000)
-      } 
-    }, 200);
-  }
-  
-  useEffect(() => {
-    txtRotate();
+  // const [usedTitle, setUsedTitle] = useState("ROSE");
+  // const [title, setTitle] = useState(usedTitle);
+  // const [rotate, setRotate] = useState("-");
+  // const [Width, setWidth] = useState(window.innerWidth);
+  // function txtRotate() {
+  //   setTimeout(() => {
+  //     if (title.length > usedTitle.length - 4 && rotate === "-") {
+  //       setTitle(title.substr(0, title.length - 1));
+  //     } else if (title.length === usedTitle.length - 4) {
+  //       usedTitle === "ROSE" ? setUsedTitle("ROSS") : setUsedTitle("ROSE");
+  //       setRotate("+");
+  //       setTitle(usedTitle.substr(0, title.length + 1));
+  //     } else if (title.length < usedTitle.length && rotate === "+") {
+  //       setTitle(usedTitle.substr(0, title.length + 1));
+  //     } else if (title.length === usedTitle.length) {
+  //       setTimeout(() => {
+  //         setRotate("-");
+  //         setTitle(title.substr(0, title.length - 1));
+  //       }, 1000);
+  //     }
+  //   }, 200);
+  // }
+
+  // useEffect(() => {
+  //   txtRotate();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title]);
+  // }, [window.innerWidth]);
 
   return (
     <div className="header">
       <div className="inner-header flex">
-        <h1 className="Mtitle">{title}</h1>
-        <h1 className="Htitle">La Vie en</h1>
+        {/* <h1 className="Mtitle">{title}</h1>
+        <h1 className="Htitle">La Vie en</h1> */}
+        <img className="LogoNuage" src={resumeData.logo} alt="logoNuage" />
       </div>
-      {Width >= 991 ?
-      <Carousel3D id="H3DCarousel" carousel={resumeData.carousel}/>
-      :
-      <Carousel id="HCarousel" carousel={resumeData.carousel}/>}
+      {/* {Width >= 991 ? ( */}
+      <Carousel3D id="H3DCarousel" carousel={resumeData.carousel} />
+      {/* ) : (
+        <Carousel id="HCarousel" carousel={resumeData.carousel} />
+      )} */}
       <div className="waveDiv">
         <svg
           className="waves"

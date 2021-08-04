@@ -13,7 +13,7 @@
 }
 .mr-auto {
     width: 100%;
-    display: flex !important;
+    /* display: flex !important; */
     flex-flow: row nowrap !important;
     justify-content: space-evenly !important;
 }
@@ -88,14 +88,14 @@ li{
         max-width: 100%;
         flex-grow: 5;
         align-items: center;
-        background-color: #333333 !important;
+        background-image: url('../assets/images/header-background.jpg');
     }
     .mr-auto {
         background-image: url('../assets/images/header-background.jpg');
         background-repeat: no-repeat;
         margin-top: 170px;
         padding-top: 50px;
-        display: flex !important;
+        /* display: flex !important; */
         flex-flow: column nowrap !important;
         justify-content: space-evenly !important;
         align-items: center;
@@ -106,6 +106,10 @@ li{
     }
     #NBToggler {
         background: none;
+        display: block;
+    }
+    .collapse:not(.show) {
+        display: none !important;
     }
     #NBToggler span {
         bottom: 0px !important;

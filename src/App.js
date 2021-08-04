@@ -1,11 +1,18 @@
-import React from 'react';
-import Router from './Router';
+import React from "react";
+import { Container } from "reactstrap";
+import AnimBorder from "./components/AnimBorder";
+import Footer from "./components/Footer";
+import NavMenu from "./components/NavMenu";
+import Router from "./Router";
 
 function App() {
   return (
-    <div className="App">
+    <Container fluid="l">
+      <NavMenu />
+      <AnimBorder />
       <Router />
-    </div>
+      <Footer />
+    </Container>
   );
 }
 
