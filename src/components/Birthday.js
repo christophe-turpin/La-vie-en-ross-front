@@ -25,6 +25,14 @@ const Birthday = () => {
             </blockquote>
             <span>{resumeData.eventAuth1}</span>
           </div>
+          <h2 className="centeredItalic">{resumeData.HBDCentered}</h2>
+          <div className="divListPrestHBD">
+            <ul className="ListPresta">
+              {resumeData.HBDPresta.map((text) => (
+                <li key={text}>{text}</li>
+              ))}
+            </ul>
+          </div>
           {resumeData.temoinHBD[0].date ? (
             resumeData.temoinHBD.map((item) => (
               <div className="comItem" key={item.date}>

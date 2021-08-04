@@ -19,6 +19,7 @@ import photo17 from "./images/carousel/photo17.jpg";
 import photo18 from "./images/carousel/photo18.jpg";
 import logoC from "./images/logo_ct_rondnoir_blanc.png";
 import logoK from "./images/logoK.png";
+import logoD from "./images/logoD.png";
 import logoN from "./images/logoN.png";
 import AboutPic from "./images/Alex1.jpeg";
 import MariagePic from "./images/Alex2.jpeg";
@@ -271,6 +272,15 @@ let resumeData = {
       url: photo12,
     },
   ],
+  HBDCentered: "Prestations anniversaire by La Vie en ROSS :",
+  HBDPresta: [
+    "Arche de Ballons",
+    "Nourriture Homemade Personnalisée",
+    "Personnalisation de nombreux accessoires",
+    " Animation pour enfants (ballons, barbe à papa, stand à pop-corn, piñata, musique etc.)",
+    "Cadeaux invités personnalisés",
+    "Ce que vous me demandez",
+  ],
   temoinHBD: [
     {
       date: "Avril 2021",
@@ -349,8 +359,10 @@ let resumeData = {
     "Quel meilleur moyen de finir un week-end festif, en famille et entre amis, qu’un brunch ?",
   brunchCentered:
     "Vous n’avez qu’à mettre les pieds sous la table et déguster !",
-  brunchText:
+  brunchText: [
     "La Vie en ROSS et ses partenaires sont là pour vous concocter un brunch sur mesure. Avec ou sans service sur place, nous nous adaptons à vos envies mais surtout à votre état post-mariage !!",
+    "Homemade by La Vie en ROSS : Pâte à Brownie / Pâte à Cookies / Biscuits Personnalisés / Barre protéinées  Vegan et Gourmande / Boissons Vegan et Gourmande / Bowl selon vos envies Vegan et Gourmand.",
+  ],
   carousel: [
     {
       url: photo1,
@@ -407,16 +419,6 @@ let resumeData = {
       url: photo18,
     },
   ],
-  testimonials: [
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-  ],
   devs: [
     {
       name: "Christophe TURPIN",
@@ -430,8 +432,8 @@ let resumeData = {
     },
     {
       name: "David RUBEN",
-      logo: logoK,
-      url: "https://phiri-kenny.netlify.app",
+      logo: logoD,
+      url: "https://david-ruben-portfolio.netlify.app",
     },
     {
       name: "Kenny PHIRI",

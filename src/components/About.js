@@ -82,7 +82,7 @@ const About = () => {
           </Row>
           <Link to="/contact">
             <div className="evenCarousel">
-              <button className="contactButton">Contactez-nous</button>
+              <button className="contactButton">Contactez moi</button>
             </div>
           </Link>
         </Col>

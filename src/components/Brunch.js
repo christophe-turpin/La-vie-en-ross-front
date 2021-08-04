@@ -61,7 +61,9 @@ const Brunch = () => {
           </div> */}
           <h1 className="presentation">{resumeData.brunchTitle}</h1>
           <h2 className="centeredItalic">{resumeData.brunchCentered}</h2>
-          <p>{resumeData.brunchText}</p>
+          {resumeData.brunchText.map((text) => (
+            <p key={text}>{text}</p>
+          ))}
           <div className="tableButton">
             <div>
               <Link className="prestaclick" to="/contact">
