@@ -10,7 +10,7 @@ const Brunch = () => {
     <div className="about">
       <div className="columns">
         <Col className="image" lg="4">
-          <img className="Alex" src={resumeData.mariagePic} alt="alex" />
+          <img id="brunchPic" src={resumeData.brunchPic} alt="alex" />
         </Col>
         <Col className="brunchContent" lg="8" md="12">
           <div id="ct">
@@ -64,6 +64,10 @@ const Brunch = () => {
           {resumeData.brunchText.map((text) => (
             <p key={text}>{text}</p>
           ))}
+          <p>
+            <strong>{resumeData.brunchMade[0]}</strong>
+            {resumeData.brunchMade[1]}
+          </p>
           <div className="tableButton">
             <div>
               <Link className="prestaclick" to="/contact">

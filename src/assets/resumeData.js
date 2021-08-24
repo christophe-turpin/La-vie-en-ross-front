@@ -1,28 +1,37 @@
 import rose from "./images/header-background.jpg";
-import photo1 from "./images/carousel/photo1.jpg";
-import photo2 from "./images/carousel/photo2.jpg";
-import photo3 from "./images/carousel/photo3.jpg";
-import photo4 from "./images/carousel/photo4.jpg";
-import photo5 from "./images/carousel/photo5.jpg";
-import photo6 from "./images/carousel/photo6.jpg";
-import photo7 from "./images/carousel/photo7.jpg";
-import photo8 from "./images/carousel/photo8.jpg";
-import photo9 from "./images/carousel/photo9.jpg";
-import photo10 from "./images/carousel/photo10.jpg";
-import photo11 from "./images/carousel/photo11.jpg";
-import photo12 from "./images/carousel/photo12.jpg";
-import photo13 from "./images/carousel/photo13.jpg";
-import photo14 from "./images/carousel/photo14.jpg";
-import photo15 from "./images/carousel/photo15.jpg";
-import photo16 from "./images/carousel/photo16.jpg";
-import photo17 from "./images/carousel/photo17.jpg";
-import photo18 from "./images/carousel/photo18.jpg";
+import wedding1 from "./images/carousel/photo1.jpg";
+import wedding2 from "./images/carousel/photo2.jpg";
+import wedding3 from "./images/carousel/photo3.jpg";
+import wedding4 from "./images/carousel/photo4.jpg";
+import wedding5 from "./images/carousel/photo5.jpg";
+import wedding6 from "./images/carousel/photo6.jpg";
+import EVJF7 from "./images/carousel/photo7.jpg";
+import EVJF8 from "./images/carousel/photo8.jpg";
+import EVJF9 from "./images/carousel/photo9.jpg";
+import EVJF10 from "./images/carousel/photo10.jpg";
+import EVJF11 from "./images/carousel/photo11.jpg";
+import EVJF12 from "./images/carousel/photo12.jpg";
+import brunch13 from "./images/carousel/photo13.jpg";
+import brunch14 from "./images/carousel/photo14.jpg";
+import brunch15 from "./images/carousel/photo15.jpg";
+import brunch16 from "./images/carousel/photo16.jpg";
+import brunch17 from "./images/carousel/photo17.jpg";
+import brunch18 from "./images/carousel/photo18.jpg";
+import HBD19 from "./images/carousel/photo19.jpg";
+import HBD20 from "./images/carousel/photo20.jpg";
+import HBD21 from "./images/carousel/photo21.jpg";
+import HBD22 from "./images/carousel/photo22.jpg";
+import HBD23 from "./images/carousel/photo23.jpg";
+import HBD24 from "./images/carousel/photo24.jpg";
+import HBD25 from "./images/carousel/photo25.jpg";
+import HBD26 from "./images/carousel/photo26.jpg";
 import logoC from "./images/logo_ct_rondnoir_blanc.png";
 import logoK from "./images/logoK.png";
 import logoD from "./images/logoD.png";
 import logoN from "./images/logoN.png";
 import AboutPic from "./images/Alex1.jpeg";
 import MariagePic from "./images/Alex2.jpeg";
+import brunchPic from "./images/brunchPic.jpg";
 import diplome1 from "./images/weddingPlanner.png";
 import diplome2 from "./images/weddingDesigner.png";
 import Tommys from "./images/logo_Tommy.png";
@@ -217,22 +226,22 @@ let resumeData = {
   ],
   MariageCarousel: [
     {
-      url: photo1,
+      url: wedding1,
     },
     {
-      url: photo2,
+      url: wedding2,
     },
     {
-      url: photo3,
+      url: wedding3,
     },
     {
-      url: photo4,
+      url: wedding4,
     },
     {
-      url: photo5,
+      url: wedding5,
     },
     {
-      url: photo6,
+      url: wedding6,
     },
   ],
   temoinEVJF: [
@@ -254,22 +263,22 @@ let resumeData = {
   ],
   EVJFCarousel: [
     {
-      url: photo7,
+      url: EVJF7,
     },
     {
-      url: photo8,
+      url: EVJF8,
     },
     {
-      url: photo9,
+      url: EVJF9,
     },
     {
-      url: photo10,
+      url: EVJF10,
     },
     {
-      url: photo11,
+      url: EVJF11,
     },
     {
-      url: photo12,
+      url: EVJF12,
     },
   ],
   HBDCentered: "Prestations anniversaire by La Vie en ROSS :",
@@ -288,7 +297,32 @@ let resumeData = {
       com: "J’ai fait appel à La Vie en ROSS pour ‘l'anniversaire de ma fille et je ne suis pas déçue. Toutes mes attentes étaient au rendez-vous.  Elle est très professionnelle, minutieuse et très douce.  Elle a éblouie les yeux de ma fille !  Merci encore pour ce moment !",
     },
   ],
-  HBDCarousel: [],
+  HBDCarousel: [
+    {
+      url: HBD19,
+    },
+    {
+      url: HBD20,
+    },
+    {
+      url: HBD21,
+    },
+    {
+      url: HBD22,
+    },
+    {
+      url: HBD23,
+    },
+    {
+      url: HBD24,
+    },
+    {
+      url: HBD25,
+    },
+    {
+      url: HBD26,
+    },
+  ],
   temoinGenderReveal: [
     {
       date: "",
@@ -320,22 +354,22 @@ let resumeData = {
   ],
   brunchCarousel: [
     {
-      url: photo13,
+      url: brunch13,
     },
     {
-      url: photo14,
+      url: brunch14,
     },
     {
-      url: photo15,
+      url: brunch15,
     },
     {
-      url: photo16,
+      url: brunch16,
     },
     {
-      url: photo17,
+      url: brunch17,
     },
     {
-      url: photo18,
+      url: brunch18,
     },
   ],
   prestatairesBrunch: [
@@ -355,68 +389,96 @@ let resumeData = {
       tarifs: "",
     },
   ],
+  brunchPic: brunchPic,
   brunchTitle:
     "Quel meilleur moyen de finir un week-end festif, en famille et entre amis, qu’un brunch ?",
   brunchCentered:
     "Vous n’avez qu’à mettre les pieds sous la table et déguster !",
   brunchText: [
     "La Vie en ROSS et ses partenaires sont là pour vous concocter un brunch sur mesure. Avec ou sans service sur place, nous nous adaptons à vos envies mais surtout à votre état post-mariage !!",
-    "Homemade by La Vie en ROSS : Pâte à Brownie / Pâte à Cookies / Biscuits Personnalisés / Barre protéinées  Vegan et Gourmande / Boissons Vegan et Gourmande / Bowl selon vos envies Vegan et Gourmand.",
+  ],
+  brunchMade: [
+    "Homemade by La Vie en ROSS :",
+    " Pâte à Brownie / Pâte à Cookies / Biscuits Personnalisés / Barre protéinées  Vegan et Gourmande / Boissons Vegan et Gourmande / Bowl selon vos envies Vegan et Gourmand.",
   ],
   carousel: [
     {
-      url: photo1,
+      url: wedding1,
     },
     {
-      url: photo2,
+      url: wedding2,
     },
     {
-      url: photo3,
+      url: wedding3,
     },
     {
-      url: photo4,
+      url: wedding4,
     },
     {
-      url: photo5,
+      url: wedding5,
     },
     {
-      url: photo6,
+      url: wedding6,
     },
     {
-      url: photo7,
+      url: EVJF7,
     },
     {
-      url: photo8,
+      url: EVJF8,
     },
     {
-      url: photo9,
+      url: EVJF9,
     },
     {
-      url: photo10,
+      url: EVJF10,
     },
     {
-      url: photo11,
+      url: EVJF11,
     },
     {
-      url: photo12,
+      url: EVJF12,
     },
     {
-      url: photo13,
+      url: brunch13,
     },
     {
-      url: photo14,
+      url: brunch14,
     },
     {
-      url: photo15,
+      url: brunch15,
     },
     {
-      url: photo16,
+      url: brunch16,
     },
     {
-      url: photo17,
+      url: brunch17,
     },
     {
-      url: photo18,
+      url: brunch18,
+    },
+    {
+      url: HBD19,
+    },
+    {
+      url: HBD20,
+    },
+    {
+      url: HBD21,
+    },
+    {
+      url: HBD22,
+    },
+    {
+      url: HBD23,
+    },
+    {
+      url: HBD24,
+    },
+    {
+      url: HBD25,
+    },
+    {
+      url: HBD26,
     },
   ],
   devs: [
