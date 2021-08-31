@@ -11,7 +11,7 @@ const EVJFEVG = () => {
         {/* <Col className="image" lg="4">
           <img className="Alex" src={resumeData.mariagePic} alt="alex" />
         </Col> */}
-        <Col lg="12" md="12">
+        <Col className="themes" lg="12" md="12">
           <h2 className="title">EVJF/EVG</h2>
           <div id="ct">
             <div className="corner " id="left_top" />

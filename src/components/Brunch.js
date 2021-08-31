@@ -3,7 +3,7 @@ import "./mariage.css";
 import { Col } from "reactstrap";
 import resumeData from "../assets/resumeData";
 import { Link } from "react-router-dom";
-import Carousel from "./Carousel";
+import picBrunch from "../assets/images/carousel/photo25.jpg";
 
 const Brunch = () => {
   return (
@@ -77,7 +77,8 @@ const Brunch = () => {
               </Link>
             </div>
           </div>
-          <Carousel carousel={resumeData.brunchCarousel} />
+          {/* <Carousel carousel={resumeData.brunchCarousel} /> */}
+          <img className="picBrunch" src={picBrunch} alt="brunch" />
         </Col>
       </div>
     </div>

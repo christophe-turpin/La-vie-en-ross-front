@@ -8,10 +8,10 @@ import wedding6 from "./images/carousel/photo6.jpg";
 import EVJF7 from "./images/carousel/photo7.jpg";
 import EVJF8 from "./images/carousel/photo8.jpg";
 import EVJF9 from "./images/carousel/photo9.jpg";
-import EVJF10 from "./images/carousel/photo10.jpg";
-import EVJF11 from "./images/carousel/photo11.jpg";
-import EVJF12 from "./images/carousel/photo12.jpg";
-import brunch13 from "./images/carousel/photo13.jpg";
+import HBD10 from "./images/carousel/photo10.jpg";
+import HBD11 from "./images/carousel/photo11.jpg";
+import HBD12 from "./images/carousel/photo12.jpg";
+import HBD13 from "./images/carousel/photo13.jpg";
 import brunch14 from "./images/carousel/photo14.jpg";
 import brunch15 from "./images/carousel/photo15.jpg";
 import brunch16 from "./images/carousel/photo16.jpg";
@@ -243,7 +243,7 @@ let resumeData = {
     {
       url: wedding6,
     },
-  ],
+  ].sort((a, b) => 0.5 - Math.random()),
   temoinEVJF: [
     {
       date: "Août 2020",
@@ -271,16 +271,7 @@ let resumeData = {
     {
       url: EVJF9,
     },
-    {
-      url: EVJF10,
-    },
-    {
-      url: EVJF11,
-    },
-    {
-      url: EVJF12,
-    },
-  ],
+  ].sort((a, b) => 0.5 - Math.random()),
   HBDCentered: "Prestations anniversaire by La Vie en ROSS :",
   HBDPresta: [
     "Arche de Ballons",
@@ -298,6 +289,18 @@ let resumeData = {
     },
   ],
   HBDCarousel: [
+    {
+      url: HBD10,
+    },
+    {
+      url: HBD11,
+    },
+    {
+      url: HBD12,
+    },
+    {
+      url: HBD13,
+    },
     {
       url: HBD19,
     },
@@ -322,7 +325,7 @@ let resumeData = {
     {
       url: HBD26,
     },
-  ],
+  ].sort((a, b) => 0.5 - Math.random()),
   temoinGenderReveal: [
     {
       date: "",
@@ -351,26 +354,6 @@ let resumeData = {
   brunchCit: [
     "D’abord le brunch, puis après le mariage !",
     "First comes brunch, then comes marriage!",
-  ],
-  brunchCarousel: [
-    {
-      url: brunch13,
-    },
-    {
-      url: brunch14,
-    },
-    {
-      url: brunch15,
-    },
-    {
-      url: brunch16,
-    },
-    {
-      url: brunch17,
-    },
-    {
-      url: brunch18,
-    },
   ],
   prestatairesBrunch: [
     {
@@ -430,16 +413,16 @@ let resumeData = {
       url: EVJF9,
     },
     {
-      url: EVJF10,
+      url: HBD10,
     },
     {
-      url: EVJF11,
+      url: HBD11,
     },
     {
-      url: EVJF12,
+      url: HBD12,
     },
     {
-      url: brunch13,
+      url: HBD13,
     },
     {
       url: brunch14,
@@ -480,7 +463,7 @@ let resumeData = {
     {
       url: HBD26,
     },
-  ],
+  ].sort((a, b) => 0.5 - Math.random()),
   devs: [
     {
       name: "Christophe TURPIN",

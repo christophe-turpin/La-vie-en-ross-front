@@ -142,6 +142,9 @@ strong {
 .themeDescRow, .themeTitle {
   width: fit-content;
 }
+.prestaclick {
+  align-self: center;
+}
 
 /* page brunch */
 
@@ -163,6 +166,11 @@ strong {
 #brunchPrices {
   margin-top: 30px;
   width: 30vw !important;
+}
+
+.picBrunch {
+  min-width: 250px !important;
+  height: auto;
 }
 
 @media (max-width: 991px){
