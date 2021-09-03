@@ -776,7 +776,7 @@ call-to-action .button {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: black;
-	display: inline-block;
+	display: block;
 	float: left;
    width: 26%;
 }
@@ -784,7 +784,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
+	color: rgb(218, 119, 193);
 	background-image: url('../images/header-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -798,7 +798,7 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: black;
+	color: rgb(218, 119, 193);
 	background-image: url('../images/header-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;

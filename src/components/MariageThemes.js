@@ -34,8 +34,10 @@ export default function MariageThemes() {
             <Row>
               <p className="desc">{resumeData.mariageMesure.description}</p>
             </Row>
-            <Link className="prestaclick" to="/questionnaire">
-              <p className="prestaclick">Questionnaire</p>
+            <Link className="prestaclick" to="/contact">
+              <div className="evenCarousel">
+                <button className="contactButton">Obtenir un devis</button>
+              </div>
             </Link>
           </div>
         </Col>
